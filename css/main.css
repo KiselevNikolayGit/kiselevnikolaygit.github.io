@@ -1,3 +1,8 @@
+@keyframes loadpage {
+	from { opacity: 0 }
+	to { opacity: 1 }
+}
+
 html {
 	font-family: 'Roboto', sans-serif;
 	line-height: 3em;
@@ -12,7 +17,11 @@ html {
 
 body {
 	margin: 0px;
-	background-color: #F5F5F5;
+	background-color: #e2e3e2;
+	overflow-x: hidden;
+	opacity: 0;
+	animation: loadpage .7s cubic-bezier(0.4, 0.0, 0.2, 1) .5s forwards;
+	animation-direction: forwards;
 }
 
 .flex {
@@ -25,7 +34,7 @@ div, header, nav, footer {
 }
 
 section, article, aside {
-	margin-top: 50px;
+	margin: 3%;
 }
 
 .row {
@@ -52,61 +61,82 @@ section, article, aside {
 	user-select: none;
 }
 
-.text {
-	margin: .4em .2em;
-	text-align: justify;
-}
-
 .head {
 	width: 100%;
 	height: 100%;
-	background-color: #009688;
+	background-color: #4caf50;
 	position: sticky;
 	top: 0;
 }
 
-.imgs {
+*:focus {
+	outline: none;
+}
+
+.h300 {
 	height: 300px;
 }
 
+.w400 {
+	width: 400px;
+}
+
+.rbot > * {
+	margin-top: -60px;
+}
+
 .content-note {
-	height: 450px;
 	justify-content: center;
-	align-items: center;
+	align-items: top;
 }
 
 .note {
-	width: 100px;
+	width: 200px;
 	margin: 25px auto;
-	height: 100px;
+	height: 200px;
 	align-items: center;
 	overflow: hidden;
-	color: #000;
-	background-color: #E0F2F1;
+	background-color: #f5f5f6;
 	box-shadow: 0 1px 2.5px rgba(0,0,0,.25);
-	border-radius: 4px;
-	transition: all .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+	border-radius: 100%;
+	transition: all .4s cubic-bezier(0.4, 0.0, 0.2, 1);
 	animation-direction: forwards;
 }
 
-.note:hover, .note:focus {
+.note:focus {
 	box-shadow: 0 2px 5px rgba(0,0,0,.25);
-	width: 300px;
+	width: 400px;
 	height: 400px;
-}
-
-.rimg {
-	transition: all .5s cubic-bezier(0.4, 0.0, 0.2, 1);
-	margin-top: -50px;
-}
-
-.rimg:hover, .rimg:focus {
-	margin-top: 0px;
+	border: 0;
+	border-radius: 10px;
 }
 
 header {
 	align-items: center;
 	height: 50px;
+}
+
+article {
+	width: 94%;
+	height: 100%;
+	align-items: center;
+	overflow: hidden;
+	background-color: #f5f5f6;
+	box-shadow: 0 2px 5px rgba(0,0,0,.25);
+	border-radius: 10px;
+}
+
+.text {
+	margin: 10px 10px;
+	text-align: justify;
+}
+
+.white {
+	color: #fff;
+}
+
+.black {
+	color: #000;
 }
 
 .bold {
@@ -119,4 +149,14 @@ h1 {
 
 p {
 	font-size: 10pt;
+}
+
+a {
+	font-size: 8pt;
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 2px;
+	background-color: #7986cb;
+	box-shadow: 0 1px 2.5px rgba(0,0,0,.25);
 }
