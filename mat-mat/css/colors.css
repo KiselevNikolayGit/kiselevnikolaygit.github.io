@@ -1,0 +1,819 @@
+.c-Red-500 {
+	background: #F44336;
+}
+.c-Red-50 {
+	background: #FFEBEE;
+}
+.c-Red-100 {
+	background: #FFCDD2;
+}
+.c-Red-200 {
+	background: #EF9A9A;
+}
+.c-Red-300 {
+	background: #E57373;
+}
+.c-Red-400 {
+	background: #EF5350;
+}
+.c-Red-500 {
+	background: #F44336;
+}
+.c-Red-600 {
+	background: #E53935;
+}
+.c-Red-700 {
+	background: #D32F2F;
+}
+.c-Red-800 {
+	background: #C62828;
+}
+.c-Red-900 {
+	background: #B71C1C;
+}
+.c-Red-A100 {
+	background: #FF8A80;
+}
+.c-Red-A200 {
+	background: #FF5252;
+}
+.c-Red-A400 {
+	background: #FF1744;
+}
+.c-Red-A700 {
+	background: #D50000;
+}
+.c-Pink-500 {
+	background: #E91E63;
+}
+.c-Pink-50 {
+	background: #FCE4EC;
+}
+.c-Pink-100 {
+	background: #F8BBD0;
+}
+.c-Pink-200 {
+	background: #F48FB1;
+}
+.c-Pink-300 {
+	background: #F06292;
+}
+.c-Pink-400 {
+	background: #EC407A;
+}
+.c-Pink-500 {
+	background: #E91E63;
+}
+.c-Pink-600 {
+	background: #D81B60;
+}
+.c-Pink-700 {
+	background: #C2185B;
+}
+.c-Pink-800 {
+	background: #AD1457;
+}
+.c-Pink-900 {
+	background: #880E4F;
+}
+.c-Pink-A100 {
+	background: #FF80AB;
+}
+.c-Pink-A200 {
+	background: #FF4081;
+}
+.c-Pink-A400 {
+	background: #F50057;
+}
+.c-Pink-A700 {
+	background: #C51162;
+}
+.c-Purple-500 {
+	background: #9C27B0;
+}
+.c-Purple-50 {
+	background: #F3E5F5;
+}
+.c-Purple-100 {
+	background: #E1BEE7;
+}
+.c-Purple-200 {
+	background: #CE93D8;
+}
+.c-Purple-300 {
+	background: #BA68C8;
+}
+.c-Purple-400 {
+	background: #AB47BC;
+}
+.c-Purple-500 {
+	background: #9C27B0;
+}
+.c-Purple-600 {
+	background: #8E24AA;
+}
+.c-Purple-700 {
+	background: #7B1FA2;
+}
+.c-Purple-800 {
+	background: #6A1B9A;
+}
+.c-Purple-900 {
+	background: #4A148C;
+}
+.c-Purple-A100 {
+	background: #EA80FC;
+}
+.c-Purple-A200 {
+	background: #E040FB;
+}
+.c-Purple-A400 {
+	background: #D500F9;
+}
+.c-Purple-A700 {
+	background: #AA00FF;
+}
+.c-DeepPurple-500 {
+	background: #673AB7;
+}
+.c-DeepPurple-50 {
+	background: #EDE7F6;
+}
+.c-DeepPurple-100 {
+	background: #D1C4E9;
+}
+.c-DeepPurple-200 {
+	background: #B39DDB;
+}
+.c-DeepPurple-300 {
+	background: #9575CD;
+}
+.c-DeepPurple-400 {
+	background: #7E57C2;
+}
+.c-DeepPurple-500 {
+	background: #673AB7;
+}
+.c-DeepPurple-600 {
+	background: #5E35B1;
+}
+.c-DeepPurple-700 {
+	background: #512DA8;
+}
+.c-DeepPurple-800 {
+	background: #4527A0;
+}
+.c-DeepPurple-900 {
+	background: #311B92;
+}
+.c-DeepPurple-A100 {
+	background: #B388FF;
+}
+.c-DeepPurple-A200 {
+	background: #7C4DFF;
+}
+.c-DeepPurple-A400 {
+	background: #651FFF;
+}
+.c-DeepPurple-A700 {
+	background: #6200EA;
+}
+.c-Indigo-500 {
+	background: #3F51B5;
+}
+.c-Indigo-50 {
+	background: #E8EAF6;
+}
+.c-Indigo-100 {
+	background: #C5CAE9;
+}
+.c-Indigo-200 {
+	background: #9FA8DA;
+}
+.c-Indigo-300 {
+	background: #7986CB;
+}
+.c-Indigo-400 {
+	background: #5C6BC0;
+}
+.c-Indigo-500 {
+	background: #3F51B5;
+}
+.c-Indigo-600 {
+	background: #3949AB;
+}
+.c-Indigo-700 {
+	background: #303F9F;
+}
+.c-Indigo-800 {
+	background: #283593;
+}
+.c-Indigo-900 {
+	background: #1A237E;
+}
+.c-Indigo-A100 {
+	background: #8C9EFF;
+}
+.c-Indigo-A200 {
+	background: #536DFE;
+}
+.c-Indigo-A400 {
+	background: #3D5AFE;
+}
+.c-Indigo-A700 {
+	background: #304FFE;
+}
+.c-Blue-500 {
+	background: #2196F3;
+}
+.c-Blue-50 {
+	background: #E3F2FD;
+}
+.c-Blue-100 {
+	background: #BBDEFB;
+}
+.c-Blue-200 {
+	background: #90CAF9;
+}
+.c-Blue-300 {
+	background: #64B5F6;
+}
+.c-Blue-400 {
+	background: #42A5F5;
+}
+.c-Blue-500 {
+	background: #2196F3;
+}
+.c-Blue-600 {
+	background: #1E88E5;
+}
+.c-Blue-700 {
+	background: #1976D2;
+}
+.c-Blue-800 {
+	background: #1565C0;
+}
+.c-Blue-900 {
+	background: #0D47A1;
+}
+.c-Blue-A100 {
+	background: #82B1FF;
+}
+.c-Blue-A200 {
+	background: #448AFF;
+}
+.c-Blue-A400 {
+	background: #2979FF;
+}
+.c-Blue-A700 {
+	background: #2962FF;
+}
+.c-LightBlue-500 {
+	background: #03A9F4;
+}
+.c-LightBlue-50 {
+	background: #E1F5FE;
+}
+.c-LightBlue-100 {
+	background: #B3E5FC;
+}
+.c-LightBlue-200 {
+	background: #81D4FA;
+}
+.c-LightBlue-300 {
+	background: #4FC3F7;
+}
+.c-LightBlue-400 {
+	background: #29B6F6;
+}
+.c-LightBlue-500 {
+	background: #03A9F4;
+}
+.c-LightBlue-600 {
+	background: #039BE5;
+}
+.c-LightBlue-700 {
+	background: #0288D1;
+}
+.c-LightBlue-800 {
+	background: #0277BD;
+}
+.c-LightBlue-900 {
+	background: #01579B;
+}
+.c-LightBlue-A100 {
+	background: #80D8FF;
+}
+.c-LightBlue-A200 {
+	background: #40C4FF;
+}
+.c-LightBlue-A400 {
+	background: #00B0FF;
+}
+.c-LightBlue-A700 {
+	background: #0091EA;
+}
+.c-Cyan-500 {
+	background: #00BCD4;
+}
+.c-Cyan-50 {
+	background: #E0F7FA;
+}
+.c-Cyan-100 {
+	background: #B2EBF2;
+}
+.c-Cyan-200 {
+	background: #80DEEA;
+}
+.c-Cyan-300 {
+	background: #4DD0E1;
+}
+.c-Cyan-400 {
+	background: #26C6DA;
+}
+.c-Cyan-500 {
+	background: #00BCD4;
+}
+.c-Cyan-600 {
+	background: #00ACC1;
+}
+.c-Cyan-700 {
+	background: #0097A7;
+}
+.c-Cyan-800 {
+	background: #00838F;
+}
+.c-Cyan-900 {
+	background: #006064;
+}
+.c-Cyan-A100 {
+	background: #84FFFF;
+}
+.c-Cyan-A200 {
+	background: #18FFFF;
+}
+.c-Cyan-A400 {
+	background: #00E5FF;
+}
+.c-Cyan-A700 {
+	background: #00B8D4;
+}
+.c-Teal-500 {
+	background: #009688;
+}
+.c-Teal-50 {
+	background: #E0F2F1;
+}
+.c-Teal-100 {
+	background: #B2DFDB;
+}
+.c-Teal-200 {
+	background: #80CBC4;
+}
+.c-Teal-300 {
+	background: #4DB6AC;
+}
+.c-Teal-400 {
+	background: #26A69A;
+}
+.c-Teal-500 {
+	background: #009688;
+}
+.c-Teal-600 {
+	background: #00897B;
+}
+.c-Teal-700 {
+	background: #00796B;
+}
+.c-Teal-800 {
+	background: #00695C;
+}
+.c-Teal-900 {
+	background: #004D40;
+}
+.c-Teal-A100 {
+	background: #A7FFEB;
+}
+.c-Teal-A200 {
+	background: #64FFDA;
+}
+.c-Teal-A400 {
+	background: #1DE9B6;
+}
+.c-Teal-A700 {
+	background: #00BFA5;
+}
+.c-Green-500 {
+	background: #4CAF50;
+}
+.c-Green-50 {
+	background: #E8F5E9;
+}
+.c-Green-100 {
+	background: #C8E6C9;
+}
+.c-Green-200 {
+	background: #A5D6A7;
+}
+.c-Green-300 {
+	background: #81C784;
+}
+.c-Green-400 {
+	background: #66BB6A;
+}
+.c-Green-500 {
+	background: #4CAF50;
+}
+.c-Green-600 {
+	background: #43A047;
+}
+.c-Green-700 {
+	background: #388E3C;
+}
+.c-Green-800 {
+	background: #2E7D32;
+}
+.c-Green-900 {
+	background: #1B5E20;
+}
+.c-Green-A100 {
+	background: #B9F6CA;
+}
+.c-Green-A200 {
+	background: #69F0AE;
+}
+.c-Green-A400 {
+	background: #00E676;
+}
+.c-Green-A700 {
+	background: #00C853;
+}
+.c-LightGreen-500 {
+	background: #8BC34A;
+}
+.c-LightGreen-50 {
+	background: #F1F8E9;
+}
+.c-LightGreen-100 {
+	background: #DCEDC8;
+}
+.c-LightGreen-200 {
+	background: #C5E1A5;
+}
+.c-LightGreen-300 {
+	background: #AED581;
+}
+.c-LightGreen-400 {
+	background: #9CCC65;
+}
+.c-LightGreen-500 {
+	background: #8BC34A;
+}
+.c-LightGreen-600 {
+	background: #7CB342;
+}
+.c-LightGreen-700 {
+	background: #689F38;
+}
+.c-LightGreen-800 {
+	background: #558B2F;
+}
+.c-LightGreen-900 {
+	background: #33691E;
+}
+.c-LightGreen-A100 {
+	background: #CCFF90;
+}
+.c-LightGreen-A200 {
+	background: #B2FF59;
+}
+.c-LightGreen-A400 {
+	background: #76FF03;
+}
+.c-LightGreen-A700 {
+	background: #64DD17;
+}
+.c-Lime-500 {
+	background: #CDDC39;
+}
+.c-Lime-50 {
+	background: #F9FBE7;
+}
+.c-Lime-100 {
+	background: #F0F4C3;
+}
+.c-Lime-200 {
+	background: #E6EE9C;
+}
+.c-Lime-300 {
+	background: #DCE775;
+}
+.c-Lime-400 {
+	background: #D4E157;
+}
+.c-Lime-500 {
+	background: #CDDC39;
+}
+.c-Lime-600 {
+	background: #C0CA33;
+}
+.c-Lime-700 {
+	background: #AFB42B;
+}
+.c-Lime-800 {
+	background: #9E9D24;
+}
+.c-Lime-900 {
+	background: #827717;
+}
+.c-Lime-A100 {
+	background: #F4FF81;
+}
+.c-Lime-A200 {
+	background: #EEFF41;
+}
+.c-Lime-A400 {
+	background: #C6FF00;
+}
+.c-Lime-A700 {
+	background: #AEEA00;
+}
+.c-Yellow-500 {
+	background: #FFEB3B;
+}
+.c-Yellow-50 {
+	background: #FFFDE7;
+}
+.c-Yellow-100 {
+	background: #FFF9C4;
+}
+.c-Yellow-200 {
+	background: #FFF59D;
+}
+.c-Yellow-300 {
+	background: #FFF176;
+}
+.c-Yellow-400 {
+	background: #FFEE58;
+}
+.c-Yellow-500 {
+	background: #FFEB3B;
+}
+.c-Yellow-600 {
+	background: #FDD835;
+}
+.c-Yellow-700 {
+	background: #FBC02D;
+}
+.c-Yellow-800 {
+	background: #F9A825;
+}
+.c-Yellow-900 {
+	background: #F57F17;
+}
+.c-Yellow-A100 {
+	background: #FFFF8D;
+}
+.c-Yellow-A200 {
+	background: #FFFF00;
+}
+.c-Yellow-A400 {
+	background: #FFEA00;
+}
+.c-Yellow-A700 {
+	background: #FFD600;
+}
+.c-Amber-500 {
+	background: #FFC107;
+}
+.c-Amber-50 {
+	background: #FFF8E1;
+}
+.c-Amber-100 {
+	background: #FFECB3;
+}
+.c-Amber-200 {
+	background: #FFE082;
+}
+.c-Amber-300 {
+	background: #FFD54F;
+}
+.c-Amber-400 {
+	background: #FFCA28;
+}
+.c-Amber-500 {
+	background: #FFC107;
+}
+.c-Amber-600 {
+	background: #FFB300;
+}
+.c-Amber-700 {
+	background: #FFA000;
+}
+.c-Amber-800 {
+	background: #FF8F00;
+}
+.c-Amber-900 {
+	background: #FF6F00;
+}
+.c-Amber-A100 {
+	background: #FFE57F;
+}
+.c-Amber-A200 {
+	background: #FFD740;
+}
+.c-Amber-A400 {
+	background: #FFC400;
+}
+.c-Amber-A700 {
+	background: #FFAB00;
+}
+.c-Orange-500 {
+	background: #FF9800;
+}
+.c-Orange-50 {
+	background: #FFF3E0;
+}
+.c-Orange-100 {
+	background: #FFE0B2;
+}
+.c-Orange-200 {
+	background: #FFCC80;
+}
+.c-Orange-300 {
+	background: #FFB74D;
+}
+.c-Orange-400 {
+	background: #FFA726;
+}
+.c-Orange-500 {
+	background: #FF9800;
+}
+.c-Orange-600 {
+	background: #FB8C00;
+}
+.c-Orange-700 {
+	background: #F57C00;
+}
+.c-Orange-800 {
+	background: #EF6C00;
+}
+.c-Orange-900 {
+	background: #E65100;
+}
+.c-Orange-A100 {
+	background: #FFD180;
+}
+.c-Orange-A200 {
+	background: #FFAB40;
+}
+.c-Orange-A400 {
+	background: #FF9100;
+}
+.c-Orange-A700 {
+	background: #FF6D00;
+}
+.c-DeepOrange-500 {
+	background: #FF5722;
+}
+.c-DeepOrange-50 {
+	background: #FBE9E7;
+}
+.c-DeepOrange-100 {
+	background: #FFCCBC;
+}
+.c-DeepOrange-200 {
+	background: #FFAB91;
+}
+.c-DeepOrange-300 {
+	background: #FF8A65;
+}
+.c-DeepOrange-400 {
+	background: #FF7043;
+}
+.c-DeepOrange-500 {
+	background: #FF5722;
+}
+.c-DeepOrange-600 {
+	background: #F4511E;
+}
+.c-DeepOrange-700 {
+	background: #E64A19;
+}
+.c-DeepOrange-800 {
+	background: #D84315;
+}
+.c-DeepOrange-900 {
+	background: #BF360C;
+}
+.c-DeepOrange-A100 {
+	background: #FF9E80;
+}
+.c-DeepOrange-A200 {
+	background: #FF6E40;
+}
+.c-DeepOrange-A400 {
+	background: #FF3D00;
+}
+.c-DeepOrange-A700 {
+	background: #DD2C00;
+}
+.c-Brown-500 {
+	background: #795548;
+}
+.c-Brown-50 {
+	background: #EFEBE9;
+}
+.c-Brown-100 {
+	background: #D7CCC8;
+}
+.c-Brown-200 {
+	background: #BCAAA4;
+}
+.c-Brown-300 {
+	background: #A1887F;
+}
+.c-Brown-400 {
+	background: #8D6E63;
+}
+.c-Brown-500 {
+	background: #795548;
+}
+.c-Brown-600 {
+	background: #6D4C41;
+}
+.c-Brown-700 {
+	background: #5D4037;
+}
+.c-Brown-800 {
+	background: #4E342E;
+}
+.c-Brown-900 {
+	background: #3E2723;
+}
+.c-Grey-500 {
+	background: #9E9E9E;
+}
+.c-Grey-50 {
+	background: #FAFAFA;
+}
+.c-Grey-100 {
+	background: #F5F5F5;
+}
+.c-Grey-200 {
+	background: #EEEEEE;
+}
+.c-Grey-300 {
+	background: #E0E0E0;
+}
+.c-Grey-400 {
+	background: #BDBDBD;
+}
+.c-Grey-500 {
+	background: #9E9E9E;
+}
+.c-Grey-600 {
+	background: #757575;
+}
+.c-Grey-700 {
+	background: #616161;
+}
+.c-Grey-800 {
+	background: #424242;
+}
+.c-Grey-900 {
+	background: #212121;
+}
+.c-BlueGrey-500 {
+	background: #607D8B;
+}
+.c-BlueGrey-50 {
+	background: #ECEFF1;
+}
+.c-BlueGrey-100 {
+	background: #CFD8DC;
+}
+.c-BlueGrey-200 {
+	background: #B0BEC5;
+}
+.c-BlueGrey-300 {
+	background: #90A4AE;
+}
+.c-BlueGrey-400 {
+	background: #78909C;
+}
+.c-BlueGrey-500 {
+	background: #607D8B;
+}
+.c-BlueGrey-600 {
+	background: #546E7A;
+}
+.c-BlueGrey-700 {
+	background: #455A64;
+}
+.c-BlueGrey-800 {
+	background: #37474F;
+}
+.c-BlueGrey-900 {
+	background: #263238;
+}

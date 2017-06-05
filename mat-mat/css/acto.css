@@ -1,0 +1,55 @@
+.circle {
+	width: 200px;
+	height: 200px;
+	margin: 10pt;
+	overflow: hidden;
+	border-radius: 100%;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.circle > * {
+	width: 470px;
+	margin: 10pt auto;
+}
+
+.circle > img {
+	width: 500px;
+	height: auto;
+	margin: 0;
+	margin-top: -50px;
+	transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+}
+
+.circle:focus {
+	width: 500px;
+	height: auto;
+	border-radius: 5pt;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+}
+
+.circle:focus > img {
+	width: 500px;
+	height: auto;
+	margin-top: 0;
+	border-radius: 5pt;
+}
+
+@keyframes fade-in {
+	from { opacity: 0 }
+	to { opacity: 1 }
+}
+
+.wrapper-full {
+	opacity: 0;
+	animation-name: fade-in;
+	animation-delay: 9s;
+	animation-duration: .3s;
+	animation-fill-mode: forwards;
+}
+
+.loadd {
+	position: absolute;
+	top: 0;
+	margin-left: -200px;
+	left: 50%;
+}
