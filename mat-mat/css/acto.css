@@ -4,7 +4,7 @@
 	margin: 10pt;
 	overflow: hidden;
 	border-radius: 100%;
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	transition: width .6s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
 }
 
 .circle > * {
@@ -14,10 +14,11 @@
 
 .circle > img {
 	width: 500px;
+	min-height: 250px;
 	height: auto;
 	margin: 0;
 	margin-top: -50px;
-	transition: all 0.4s cubic-bezier(.25,.8,.25,1);
+	transition: all 2s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 .circle:focus {
@@ -42,7 +43,7 @@
 .wrapper-full {
 	opacity: 0;
 	animation-name: fade-in;
-	animation-delay: 9s;
+	animation-delay: .4s;
 	animation-duration: .3s;
 	animation-fill-mode: forwards;
 }
