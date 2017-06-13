@@ -11,21 +11,21 @@
 	transition: all .6s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
 }
 
-.circle > * {
+.circle * {
 	width: 470px;
 	margin: 10pt auto;
 }
 
 .circle > img {
-	width: 500px;
+	width: 400px;
 	height: auto;
 	margin: -50px 0px 0px 0px;
-	transition: all 1s cubic-bezier(0.4, 0.0, 0.2, 1);
+	transition: all .5s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 .circle:focus {
 	width: 500px;
-	height: 500px;
+	height: 600px;
 	border-radius: 10px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
 }
