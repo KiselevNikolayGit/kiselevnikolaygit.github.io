@@ -1,5 +1,5 @@
 .bor-wrapper {
-	background: url("https://images.unsplash.com/photo-1495012379376-194a416fcc5f?dpr=1&amp;auto=format&amp;fit=crop&amp;w=1080&amp;h=1474&amp;q=80&amp;cs=tinysrgb&amp;crop=&amp;bg=");
+	background: black;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -18,4 +18,23 @@
 img {
 	width: 100%;
 	height: auto;
+}
+
+.cir {
+	width: 50%;
+	height: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 20%;
+}
+
+.cir:hover {
+	opacity: 0.5;
+}
+
+.cir-m {
+	margin: -15% 0 -16% 0;
+}
+
+.cir-g {
+	margin-left: -3%;
 }
