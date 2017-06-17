@@ -20,21 +20,88 @@ img {
 	height: auto;
 }
 
-.cir {
-	width: 50%;
-	height: 50%;
-	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
-	border-radius: 20%;
+.oc {
+	width: 1200px;
+	height: 1200px;
+	position: relative;
 }
 
-.cir:hover {
+.oh-ex {
+	position: absolute;
+}
+
+.oh-ex:hover {
 	opacity: 0.5;
 }
 
-.cir-m {
-	margin: -15% 0 -16% 0;
+.o1 {
+	left: 608px;
+	bottom: 819px;
+	width: 408px;
+	height: 374px;
 }
 
-.cir-g {
-	margin-left: -3%;
+.o2 {
+	left: 818px;
+	bottom: 557px;
+	width: 374px;
+	height: 458px;
+}
+
+.o3 {
+	left: 819px;
+	bottom: 183px;
+	width: 373px;
+	height: 408px;
+}
+
+.o4 {
+	left: 557px;
+	bottom: 6px;
+	width: 458px;
+	height: 374px;
+}
+
+.o5 {
+	left: 183px;
+	bottom: 7px;
+	width: 408px;
+	height: 373px;
+}
+
+.o6 {
+	left: 6px;
+	bottom: 184px;
+	width: 374px;
+	height: 458px;
+}
+
+.o7 {
+	left: 7px;
+	bottom: 608px;
+	width: 373px;
+	height: 408px;
+}
+
+.o8 {
+	left: 184px;
+	bottom: 818px;
+	width: 458px;
+	height: 374px;
+}
+
+.ob1 {
+	 border-radius: 225px 0 0 0;
+}
+
+.ob2 {
+	 border-radius: 0 225px 0 0;
+}
+
+.ob3 {
+	 border-radius: 0 0 225px 0;
+}
+
+.ob4 {
+	 border-radius: 0 0 0 225px;
 }
