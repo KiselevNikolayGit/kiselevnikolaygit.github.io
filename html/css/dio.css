@@ -1,0 +1,165 @@
+.oc-t {
+	width: calc(1200px / 2);
+	height: calc(1200px / 2);
+	position: relative;
+	opacity: 0;
+	animation: roll-in 2.3s 1s cubic-bezier(0.0, 0.0, 0.2, 1) forwards !important;
+}
+
+@keyframes roll-in {
+	from {
+		transform: rotate(720deg) scale(0.4);
+		opacity: 0;
+	}
+	to {
+		transform: rotate(0deg) scale(1);
+		opacity: 1;
+	}
+}
+
+.oh-ex {
+	position: absolute;
+	/*border: 1px solid gray;*/
+}
+
+.oh-ex:hover {
+	transform: scale(1.1);
+	z-index: 1;
+}
+
+.o1 {
+	left: calc(593px / 2);
+	bottom: calc(805px / 2);
+	width: calc(432px / 2);
+	height: calc(394px / 2);
+}
+
+.o2 {
+	left: calc(805px / 2);
+	bottom: calc(543px / 2);
+	width: calc(394px / 2);
+	height: calc(482px / 2);
+}
+
+.o3 {
+	left: calc(805px / 2);
+	bottom: calc(173px / 2);
+	width: calc(394px / 2);
+	height: calc(432px / 2);
+}
+
+.o4 {
+	left: calc(543px / 2);
+	bottom: calc(0px / 2);
+	width: calc(482px / 2);
+	height: calc(394px / 2);
+}
+
+.o5 {
+	left: calc(173px / 2);
+	bottom: calc(0px / 2);
+	width: calc(432px / 2);
+	height: calc(394px / 2);
+}
+
+.o6 {
+	left: calc(0px / 2);
+	bottom: calc(173px / 2);
+	width: calc(394px / 2);
+	height: calc(482px / 2);
+}
+
+.o7 {
+	left: calc(0px / 2);
+	bottom: calc(593px / 2);
+	width: calc(394px / 2);
+	height: calc(432px / 2);
+}
+
+.o8 {
+	left: calc(173px / 2);
+	bottom: calc(805px / 2);
+	width: calc(482px / 2);
+	height: calc(394px / 2);
+}
+
+.oA1 {
+	left: calc(593px / 2);
+	bottom: calc(593px / 2);
+	width: calc(245px / 2);
+	height: calc(310px / 2);
+}
+
+.oA2 {
+	left: calc(593px / 2);
+	bottom: calc(527px / 2);
+	width: calc(310px / 2);
+	height: calc(264px / 2);
+}
+
+.oA3 {
+	left: calc(593px / 2);
+	bottom: calc(325px / 2);
+	width: calc(303px / 2);
+	height: calc(281px / 2);
+}
+
+.oA4 {
+	left: calc(464px / 2);
+	bottom: calc(294px / 2);
+	width: calc(271px / 2);
+	height: calc(310px / 2);
+}
+
+.oA5 {
+	left: calc(303px / 2);
+	bottom: calc(325px / 2);
+	width: calc(303px / 2);
+	height: calc(281px / 2);
+}
+
+.oA6 {
+	left: calc(295px / 2);
+	bottom: calc(527px / 2);
+	width: calc(310px / 2);
+	height: calc(264px / 2);
+}
+
+.oA7 {
+	left: calc(360px / 2);
+	bottom: calc(593px / 2);
+	width: calc(270px / 2);
+	height: calc(310px / 2);
+}
+
+.ob1 {
+	 border-radius: calc(225px / 2) 0 0 0;
+}
+
+.ob2 {
+	 border-radius: 0 calc(225px / 2) 0 0;
+}
+
+.ob3 {
+	 border-radius: 0 0 calc(225px / 2) 0;
+}
+
+.ob4 {
+	 border-radius: 0 0 0 calc(225px / 2);
+}
+
+.obA1 {
+	 border-radius: calc(225px / 2) 0 0 0;
+}
+
+.obA2 {
+	 border-radius: 0 calc(225px / 2) 0 0;
+}
+
+.obA3 {
+	 border-radius: 0 0 calc(225px / 2) 0;
+}
+
+.obA4 {
+	 border-radius: 0 0 0 calc(225px / 2);
+}
