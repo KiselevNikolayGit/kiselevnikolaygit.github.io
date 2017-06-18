@@ -1,0 +1,26 @@
+@keyframes main {
+	from {
+		transform: translateX(20%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+header, footer {
+	animation: main 1s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
+}
+
+nav {
+	transform: translateX(20%);
+	opacity: 0;
+	animation: main .85s .15s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
+}
+
+section, article {
+	transform: translateX(20%);
+	opacity: 0;
+	animation: main .75s .25s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
+}
