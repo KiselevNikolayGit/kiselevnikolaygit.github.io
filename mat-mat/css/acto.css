@@ -2,6 +2,10 @@
 	transition: all .5s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
+*::selection {
+	background-color: rgba(30, 30, 30, 0.2);
+}
+
 .circle {
 	width: 200px;
 	height: 200px;
@@ -9,6 +13,7 @@
 	overflow: hidden;
 	border-radius: 200px;
 	transition: all .6s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
+	user-select: none;
 }
 
 .circle * {
@@ -65,7 +70,7 @@
 		overflow: hidden;
 	}
 	to {
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 }
 

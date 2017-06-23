@@ -1,0 +1,133 @@
+*:focus {
+	outline: 0;
+}
+
+ul * {
+	list-style-type: disc;
+	margin-left: 25pt !important;
+}
+
+.text {
+	margin: 5pt;
+	text-align: justify;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto Slab', serif;
+}
+
+.t-m {
+	margin: 10pt;
+}
+
+.t-icon {
+	margin-left: 7pt;
+	margin-right: 7pt;
+	user-select: none;
+}
+
+.t-head {
+	margin: 3pt;
+	font-weight: bold;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+	user-select: none;
+}
+
+.t-4 {
+	font-size: 4pt;
+}
+
+.t-8 {
+	font-size: 8pt;
+}
+
+.t-12 {
+	font-size: 12pt;
+}
+
+.t-16 {
+	font-size: 16pt;
+}
+
+.t-20 {
+	font-size: 20pt;
+}
+
+.t-24 {
+	font-size: 24pt;
+}
+
+.t-28 {
+	font-size: 28pt;
+}
+
+.t-32 {
+	font-size: 32pt;
+}
+
+.t-36 {
+	font-size: 36pt;
+}
+
+.t-74 {
+	font-size: 74pt;
+}
+
+.t-white {
+	color: white;
+}
+
+.t-black {
+	color: black;
+}
+
+.t-thin {
+	color: white;
+	opacity: 0.5;
+}
+
+.t-bold {
+	font-weight: bold;
+}
+
+.t-light {
+	font-weight: lighter;
+}
+
+.t-slab {
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto Slab', serif;
+}
+
+.t-robo {
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', sans-serif;
+}
+
+.button {
+	text-decoration: none;
+	margin: auto auto 15pt 15pt !important;
+	padding: 10pt;
+	border-radius: 5pt;
+	width: auto !important;
+}
+
+.i-w {
+	width: 50%;
+	height: auto;
+	/*border: solid white 2pt;*/
+	border-radius: 14.25pt;
+	margin: 5pt auto;
+}
+
+.i-b {
+	width: 50%;
+	height: auto;
+	/*border: solid black 2pt;*/
+	border-radius: 14.25pt;
+	margin: 5pt auto;
+}
+
+.i-h:hover {
+	width: 52%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

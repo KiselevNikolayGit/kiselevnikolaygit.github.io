@@ -94,7 +94,7 @@ div, article, aside, details, figcaption, figure, footer, header, hgroup, menu, 
 
 /*======================================================== row ============*/
 
-div[class*="row"] {
+*[class*="row"] {
 	flex-direction: row;
 }
 
@@ -266,7 +266,7 @@ div[class*="row"] {
 
 /*======================================================== col ============*/
 
-div[class*="col"] {
+*[class*="col"] {
 	flex-direction: column;
 }
 
