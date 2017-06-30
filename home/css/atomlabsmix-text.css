@@ -6,6 +6,10 @@
 	word-wrap: break-word;
 }
 
+.atext-100 {
+	width: 100%;
+}
+
 .atext-1{font-size: calc(1em / 30);}
 .atext-2{font-size: calc(2em / 30);}
 .atext-3{font-size: calc(3em / 30);}
@@ -192,4 +196,22 @@
 
 .atext-center {
 	text-align: center;
+}
+
+.atext-justify {
+	text-align: justify;
+	text-align-last: right;
+}
+
+.atext-justify-force {
+	text-align: justify;
+}
+
+.atext-nowrap {
+	word-wrap: normal;
+}
+
+ul > li {
+	list-style-type: disc;
+	list-style-position: inside;
 }

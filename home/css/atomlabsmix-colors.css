@@ -24,3 +24,28 @@
     background-color: #0e0b09;
     color: #e5dfda;
 }
+
+.acolor-white > *::selection, .acolor-white > ul > *::selection {
+    color: #e5dfda !important;
+    background-color: #0e0b09 !important;
+}
+
+.acolor-yellow > *::selection, .acolor-yellow > ul > *::selection {
+    color: #ecb84e;
+    background-color: #0e0b09;
+}
+
+.acolor-green > *::selection, .acolor-green > ul > *::selection {
+    color: #9fc8b8;
+    background-color: #0e0b09;
+}
+
+.acolor-red > *::selection, .acolor-red > ul > *::selection {
+    color: #d25045;
+    background-color: #e5dfda;
+}
+
+.acolor-black > *::selection, .acolor-black > ul > *::selection {
+    color: #0e0b09;
+    background-color: #e5dfda;
+}
