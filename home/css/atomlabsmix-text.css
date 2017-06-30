@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700&subset=cyrillic');
+
+* {
+	font-family: 'Yanone Kaffeesatz', sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+	word-wrap: break-word;
+}
+
+.atext-1{font-size: calc(1em / 30);}
+.atext-2{font-size: calc(2em / 30);}
+.atext-3{font-size: calc(3em / 30);}
+.atext-4{font-size: calc(4em / 30);}
+.atext-5{font-size: calc(5em / 30);}
+.atext-6{font-size: calc(6em / 30);}
+.atext-7{font-size: calc(7em / 30);}
+.atext-8{font-size: calc(8em / 30);}
+.atext-9{font-size: calc(9em / 30);}
+.atext-10{font-size: calc(10em / 30);}
+.atext-11{font-size: calc(11em / 30);}
+.atext-12{font-size: calc(12em / 30);}
+.atext-13{font-size: calc(13em / 30);}
+.atext-14{font-size: calc(14em / 30);}
+.atext-15{font-size: calc(15em / 30);}
+.atext-16{font-size: calc(16em / 30);}
+.atext-17{font-size: calc(17em / 30);}
+.atext-18{font-size: calc(18em / 30);}
+.atext-19{font-size: calc(19em / 30);}
+.atext-20{font-size: calc(20em / 30);}
+.atext-21{font-size: calc(21em / 30);}
+.atext-22{font-size: calc(22em / 30);}
+.atext-23{font-size: calc(23em / 30);}
+.atext-24{font-size: calc(24em / 30);}
+.atext-25{font-size: calc(25em / 30);}
+.atext-26{font-size: calc(26em / 30);}
+.atext-27{font-size: calc(27em / 30);}
+.atext-28{font-size: calc(28em / 30);}
+.atext-29{font-size: calc(29em / 30);}
+.atext-30{font-size: calc(30em / 30);}
+.atext-31{font-size: calc(31em / 30);}
+.atext-32{font-size: calc(32em / 30);}
+.atext-33{font-size: calc(33em / 30);}
+.atext-34{font-size: calc(34em / 30);}
+.atext-35{font-size: calc(35em / 30);}
+.atext-36{font-size: calc(36em / 30);}
+.atext-37{font-size: calc(37em / 30);}
+.atext-38{font-size: calc(38em / 30);}
+.atext-39{font-size: calc(39em / 30);}
+.atext-40{font-size: calc(40em / 30);}
+.atext-41{font-size: calc(41em / 30);}
+.atext-42{font-size: calc(42em / 30);}
+.atext-43{font-size: calc(43em / 30);}
+.atext-44{font-size: calc(44em / 30);}
+.atext-45{font-size: calc(45em / 30);}
+.atext-46{font-size: calc(46em / 30);}
+.atext-47{font-size: calc(47em / 30);}
+.atext-48{font-size: calc(48em / 30);}
+.atext-49{font-size: calc(49em / 30);}
+.atext-50{font-size: calc(50em / 30);}
+.atext-51{font-size: calc(51em / 30);}
+.atext-52{font-size: calc(52em / 30);}
+.atext-53{font-size: calc(53em / 30);}
+.atext-54{font-size: calc(54em / 30);}
+.atext-55{font-size: calc(55em / 30);}
+.atext-56{font-size: calc(56em / 30);}
+.atext-57{font-size: calc(57em / 30);}
+.atext-58{font-size: calc(58em / 30);}
+.atext-59{font-size: calc(59em / 30);}
+.atext-60{font-size: calc(60em / 30);}
+.atext-61{font-size: calc(61em / 30);}
+.atext-62{font-size: calc(62em / 30);}
+.atext-63{font-size: calc(63em / 30);}
+.atext-64{font-size: calc(64em / 30);}
+.atext-65{font-size: calc(65em / 30);}
+.atext-66{font-size: calc(66em / 30);}
+.atext-67{font-size: calc(67em / 30);}
+.atext-68{font-size: calc(68em / 30);}
+.atext-69{font-size: calc(69em / 30);}
+.atext-70{font-size: calc(70em / 30);}
+.atext-71{font-size: calc(71em / 30);}
+.atext-72{font-size: calc(72em / 30);}
+.atext-73{font-size: calc(73em / 30);}
+.atext-74{font-size: calc(74em / 30);}
+.atext-75{font-size: calc(75em / 30);}
+.atext-76{font-size: calc(76em / 30);}
+.atext-77{font-size: calc(77em / 30);}
+.atext-78{font-size: calc(78em / 30);}
+.atext-79{font-size: calc(79em / 30);}
+.atext-80{font-size: calc(80em / 30);}
+.atext-81{font-size: calc(81em / 30);}
+.atext-82{font-size: calc(82em / 30);}
+.atext-83{font-size: calc(83em / 30);}
+.atext-84{font-size: calc(84em / 30);}
+.atext-85{font-size: calc(85em / 30);}
+.atext-86{font-size: calc(86em / 30);}
+.atext-87{font-size: calc(87em / 30);}
+.atext-88{font-size: calc(88em / 30);}
+.atext-89{font-size: calc(89em / 30);}
+.atext-90{font-size: calc(90em / 30);}
+.atext-91{font-size: calc(91em / 30);}
+.atext-92{font-size: calc(92em / 30);}
+.atext-93{font-size: calc(93em / 30);}
+.atext-94{font-size: calc(94em / 30);}
+.atext-95{font-size: calc(95em / 30);}
+.atext-96{font-size: calc(96em / 30);}
+.atext-97{font-size: calc(97em / 30);}
+.atext-98{font-size: calc(98em / 30);}
+.atext-99{font-size: calc(99em / 30);}
+.atext-100{font-size: calc(100em / 30);}
+.atext-101{font-size: calc(101em / 30);}
+.atext-102{font-size: calc(102em / 30);}
+.atext-103{font-size: calc(103em / 30);}
+.atext-104{font-size: calc(104em / 30);}
+.atext-105{font-size: calc(105em / 30);}
+.atext-106{font-size: calc(106em / 30);}
+.atext-107{font-size: calc(107em / 30);}
+.atext-108{font-size: calc(108em / 30);}
+.atext-109{font-size: calc(109em / 30);}
+.atext-110{font-size: calc(110em / 30);}
+.atext-111{font-size: calc(111em / 30);}
+.atext-112{font-size: calc(112em / 30);}
+.atext-113{font-size: calc(113em / 30);}
+.atext-114{font-size: calc(114em / 30);}
+.atext-115{font-size: calc(115em / 30);}
+.atext-116{font-size: calc(116em / 30);}
+.atext-117{font-size: calc(117em / 30);}
+.atext-118{font-size: calc(118em / 30);}
+.atext-119{font-size: calc(119em / 30);}
+.atext-120{font-size: calc(120em / 30);}
+.atext-121{font-size: calc(121em / 30);}
+.atext-122{font-size: calc(122em / 30);}
+.atext-123{font-size: calc(123em / 30);}
+.atext-124{font-size: calc(124em / 30);}
+.atext-125{font-size: calc(125em / 30);}
+.atext-126{font-size: calc(126em / 30);}
+.atext-127{font-size: calc(127em / 30);}
+.atext-128{font-size: calc(128em / 30);}
+.atext-129{font-size: calc(129em / 30);}
+.atext-130{font-size: calc(130em / 30);}
+.atext-131{font-size: calc(131em / 30);}
+.atext-132{font-size: calc(132em / 30);}
+.atext-133{font-size: calc(133em / 30);}
+.atext-134{font-size: calc(134em / 30);}
+.atext-135{font-size: calc(135em / 30);}
+.atext-136{font-size: calc(136em / 30);}
+.atext-137{font-size: calc(137em / 30);}
+.atext-138{font-size: calc(138em / 30);}
+.atext-139{font-size: calc(139em / 30);}
+.atext-140{font-size: calc(140em / 30);}
+.atext-141{font-size: calc(141em / 30);}
+.atext-142{font-size: calc(142em / 30);}
+.atext-143{font-size: calc(143em / 30);}
+.atext-144{font-size: calc(144em / 30);}
+
+.atext-ind-s {
+	padding: calc(10em / 30) calc(20em / 30);
+	margin: 0;
+}
+
+.atext-ind-m {
+	padding: calc(15em / 30) calc(20em / 30);
+	margin: 0;
+}
+
+.atext-ind-l {
+	padding: calc(20em / 30) calc(20em / 30);
+	margin: 0;
+}
+
+.atext-normal {
+	font-weight: 400;
+}
+
+.atext-light {
+	font-weight: 300;
+}
+
+.atext-thin {
+	font-weight: 200;
+}
+
+.atext-bold {
+	font-weight: 700;
+}
+
+.atext-right {
+	text-align: right;
+}
+
+.atext-left {
+	text-align: left;
+}
+
+.atext-center {
+	text-align: center;
+}

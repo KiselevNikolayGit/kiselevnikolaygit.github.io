@@ -1,0 +1,26 @@
+/* white - #e5dfda, yellow - #ecb84e, green - #9fc8b8, red - #d25045, black - #0e0b09*/
+
+.acolor-white {
+    background-color: #e5dfda;
+    color: #0e0b09;
+}
+
+.acolor-yellow {
+    background-color: #ecb84e;
+    color: #0e0b09;
+}
+
+.acolor-green {
+    background-color: #9fc8b8;
+    color: #0e0b09;
+}
+
+.acolor-red {
+    background-color: #d25045;
+    color: #e5dfda;
+}
+
+.acolor-black {
+    background-color: #0e0b09;
+    color: #e5dfda;
+}
