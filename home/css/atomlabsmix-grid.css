@@ -1,6 +1,6 @@
 div, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: flex;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 footer {

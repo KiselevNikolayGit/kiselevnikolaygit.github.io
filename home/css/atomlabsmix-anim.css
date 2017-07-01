@@ -1,0 +1,42 @@
+.aanim-roll {
+    transform-origin: 50% 50%;
+    animation: roll 5s 1ms forwards cubic-bezier(0.075, 0.1, 0.165, 1);
+}
+
+* {
+    transition: all 0.2s ease;
+}
+
+.aamin-hover:hover {
+    transform: scale(1.175);
+}
+
+.aamin-hover-block:hover {
+    transform: translateY(-.75em) scale(1.04);
+    z-index: 100;
+}
+
+@keyframes roll {
+    from {
+        transform: rotate(1000deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.aanim-show {
+    opacity: 0;
+    animation: showu 1s 3s forwards cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@keyframes showu {
+    from {
+        opacity: 0;
+        transform: translate(2em);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0em);
+    }
+}
