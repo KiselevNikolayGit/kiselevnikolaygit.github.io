@@ -215,3 +215,8 @@ ul > li {
 	list-style-type: disc;
 	list-style-position: inside;
 }
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
