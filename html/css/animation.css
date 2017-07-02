@@ -24,3 +24,30 @@ section, article {
 	opacity: 0;
 	animation: main .75s .25s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
 }
+
+.diogram-amination {
+	animation: diogram 2s 1s cubic-bezier(0.39, 0.575, 0.565, 1) forwards;
+	transform-origin: 50% 50%;
+	opacity: 0;
+}
+
+@keyframes diogram {
+	from {
+		transform: scale(0.75) rotate(17deg);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+.diogram-part-amination {
+	transform-origin: 50% 50%;
+	transition: all .85s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
+}
+
+.diogram-part-amination:hover {
+	fill: #F44336 !important;
+	z-index: 100;
+}
