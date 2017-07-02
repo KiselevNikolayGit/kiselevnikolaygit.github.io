@@ -1,3 +1,14 @@
 .dr {
     margin: 1em;
 }
+
+@media screen and (max-width: 1100px) {
+    article, aside, details, footer, menu, section, address {
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        font-size: 125% !important;
+    }
+    article > *, aside > *, details > *, footer > *, menu > *, section > * {
+        width: 100% !important;
+    }
+}
