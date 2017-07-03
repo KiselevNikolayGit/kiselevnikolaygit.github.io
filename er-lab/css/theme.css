@@ -1,7 +1,10 @@
 .bor-wrapper {
-	/*wallpaper*/
+	background-image: url("http://er.ru/media/i/bg01.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 5%;
+	width: 90%;
+	height: 100%;
 }
 
 .bor-container {
