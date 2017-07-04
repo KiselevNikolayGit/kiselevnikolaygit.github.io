@@ -1,5 +1,6 @@
 * {
     transition: all 0.2s ease;
+    z-index: 0;
 }
 
 .aamin-hover:hover {
@@ -12,7 +13,7 @@
 }
 
 .aamin-hover-block:hover {
-    z-index: -100;
+    z-index: -1;
     box-shadow: 0 0 2em white;
 }
 
