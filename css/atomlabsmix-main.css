@@ -2,6 +2,10 @@ img {
   image-rendering: pixelated;
 }
 
+svg {
+  margin: 1em;
+}
+
 .dr {
     margin: 1em;
 }
