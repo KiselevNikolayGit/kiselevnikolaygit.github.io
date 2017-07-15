@@ -3,10 +3,6 @@ div, article, aside, details, figcaption, figure, footer, header, hgroup, menu, 
 	/*overflow: hidden;*/
 }
 
-footer {
-	padding-bottom: 6em;
-}
-
 .wrapper {
 	width: 100%;
 	min-height: 10px;
