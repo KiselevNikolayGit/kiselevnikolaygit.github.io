@@ -5,6 +5,7 @@
 	font-weight: bold;
 	text-rendering: optimizeSpeed !important;
 	word-wrap: break-word;
+	user-select: text;
 }
 
 .atext-1{font-size: calc(1em / 15);}

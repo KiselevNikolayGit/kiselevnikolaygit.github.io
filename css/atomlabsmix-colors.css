@@ -209,3 +209,19 @@ html {
   /* Чистый Снег */
   color: #cdcbcf;
 }
+
+.abcl-r {
+  background: linear-gradient(90deg, #812200, #9f390c, #c76a36, #d38453);
+}
+
+.abcl-g {
+  background: linear-gradient(90deg, #274d41, #3a5b49, #527650, #648559);
+}
+
+.abcl-b {
+  background: linear-gradient(90deg, #0b3362, #213d6e, #184c87, #215999);
+}
+
+.abcl-p {
+  background: linear-gradient(90deg, #232137, #383349, #3c3b5b, #424163);
+}
