@@ -5,6 +5,7 @@
 	font-weight: bold;
 	text-rendering: optimizeSpeed !important;
 	word-wrap: break-word;
+	letter-spacing: -.075em;
 	user-select: text;
 }
 
@@ -205,4 +206,11 @@ a {
 
 .atext-u {
 	text-decoration: line-through;
+}
+
+.atext-mega {
+	margin: 1em;
+	border-top: solid .1em;
+	border-bottom: solid .1em;
+	text-align: center;
 }
