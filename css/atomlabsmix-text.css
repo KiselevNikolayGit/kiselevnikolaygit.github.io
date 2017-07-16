@@ -2,10 +2,8 @@
 
 * {
 	font-family: 'Cuprum', sans-serif !important;
-	font-weight: bold;
 	text-rendering: optimizeSpeed !important;
 	word-wrap: break-word;
-	letter-spacing: -.075em;
 	user-select: text;
 }
 
@@ -204,6 +202,10 @@ a {
 	color: inherit;
 }
 
+p {
+	line-height: 1.3em;	
+}
+
 .atext-u {
 	text-decoration: line-through;
 }
@@ -213,4 +215,18 @@ a {
 	border-top: solid .1em;
 	border-bottom: solid .1em;
 	text-align: center;
+}
+
+.acode {
+	border-left: 0.7em solid;
+	background-color: rgba(0, 0, 0, 0.2);
+	font-size: 1.2em;
+	word-break: break-all;
+	margin: -.5em 1em;
+	padding: .5em;
+	letter-spacing: .15em;
+}
+
+.acode-force {
+	border-bottom: 0.01em solid;
 }
