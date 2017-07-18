@@ -153,17 +153,22 @@
 .atext-144{font-size: calc(144em / 15);}
 
 .atext-ind-s {
-	padding: .3em .3em;
+	padding: .5em .5em;
 	margin: 0;
 }
 
 .atext-ind-m {
-	padding: .8em .3em;
+	padding: .7em .7em;
 	margin: 0;
 }
 
 .atext-ind-l {
-	padding: 1.3em .3em;
+	padding: 1em 1em;
+	margin: 0;
+}
+
+.atext-ind-xl {
+	padding: 1em 2em;
 	margin: 0;
 }
 
@@ -181,11 +186,11 @@
 
 .atext-justify {
 	text-align: justify;
-	text-align-last: right;
 }
 
-.atext-justify-force {
+.atext-justify-center {
 	text-align: justify;
+	text-align-last: center;
 }
 
 .atext-nowrap {
