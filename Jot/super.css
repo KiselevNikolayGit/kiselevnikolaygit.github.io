@@ -1,0 +1,32 @@
+.mlogo {
+	margin: 5em 0;
+}
+
+.p-1 {
+	background: url("https://source.unsplash.com/700x250/?nature");	
+}
+.p-2 {
+	background: url("https://source.unsplash.com/700x250/?animal");	
+}
+.p-3 {
+	background: url("https://source.unsplash.com/700x250/?forest");	
+}
+.p-4 {
+	background: url("https://source.unsplash.com/700x250/?nature");	
+}
+.p-5 {
+	background: url("https://source.unsplash.com/700x250/?nature");	
+}
+
+.pic {
+	background-color: rgba(255, 255, 255, .6);
+	background-repeat: no-repeat;
+	background-size: contain;
+	/* border-radius: 7em; */
+	margin: 0 15%;
+	width: 70%;
+}
+
+.pic > * {
+	opacity: .9;
+}
