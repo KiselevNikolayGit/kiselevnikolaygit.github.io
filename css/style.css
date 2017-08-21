@@ -1,14 +1,17 @@
 .random-pic {
-	background: /*url("https://source.unsplash.com/collection/148984/1600x1000")*/ #000000;   
+	background: url("https://source.unsplash.com/collection/148984/1600x1000") #000000;   
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 	color: black
 }
 
-.paper {
-	border-radius: 1em;
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, .4) inset;
-	padding: 4em;
-	margin: 4em;
-	overflow: hidden;
+html {
+	background: black;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin: 1em;
 }
