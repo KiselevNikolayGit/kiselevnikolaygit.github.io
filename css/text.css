@@ -9,20 +9,20 @@
 * {
     font-family: 'Rubik Mono One', sans-serif;
     color: white;
-    text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 0.3em rgba(0, 0, 0, 0.5);
     text-rendering: optimizeLegibility;	
 }
 
 h1 {
 	font-size: 400%;
-	color: #000;
-	border-bottom: #000 .075em solid;
+	nocolor: #000;
+	noborder-bottom: #000 .075em solid;
 	margin-bottom: 1em;
 }
 
 h1::first-letter {
 	font-size: 130%;
-	color: #da2200;
+	nocolor: #da2200;
 }
 
 h2 {
