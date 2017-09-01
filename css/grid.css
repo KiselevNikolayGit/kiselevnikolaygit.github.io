@@ -4,7 +4,9 @@ article, aside, div, footer, header, nav, section {
 
 .wrapper {
 	width: 100%;
-	min-height: 100%;
+	overflow: hidden;
+	display: block;
+	flex-direction: column;
 }
 
 .wrap {
