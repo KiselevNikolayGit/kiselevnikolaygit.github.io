@@ -9,7 +9,7 @@ header {
     background-size: cover;
 }
 
-/* #pic1 {
+#pic1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.5) 100%), url(https://source.unsplash.com/user/kiselevnikolay/likes/1600x900) 0 0 repeat;
     background-position: 49% 49%;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ header {
     background-position: 49% 49%;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
 .box {
     border: 0.1em solid #000;

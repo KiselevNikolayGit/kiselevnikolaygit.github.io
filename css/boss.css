@@ -4,3 +4,7 @@
     font-size: 50pt;
     color: #fff;
 }
+
+iframe {
+    margin: 1em;
+}
