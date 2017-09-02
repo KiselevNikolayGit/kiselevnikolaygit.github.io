@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Mono|PT+Serif+Caption&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption&subset=cyrillic');
 
 * {
-	font-family: 'PT Mono', monospace;
+	font-family: 'PT Serif Caption', serif;
 	text-rendering: optimizeLegibility;
 	transition: all 1s ease;
 	user-select: none;
@@ -10,8 +10,11 @@
 h2 {
 	font-size: 300%;
 	color: #fff;
+	border-top: #fff .05em solid;
 	border-bottom: #fff .05em solid;
-	margin-top: 3em;
+	margin: 10%;
+	width: 80%;
+	text-align: center;
 }
 
 h2::first-letter {
@@ -22,7 +25,7 @@ h2::first-letter {
 h3 {
 	font-size: 240%;
 	color: #fff;
-	margin-top: 3em;
+	margin: 1em;
 }
 
 h3::first-letter {
@@ -33,7 +36,7 @@ h3::first-letter {
 h4 {
 	font-size: 200%;
 	color: #fff;
-	margin-top: 3em;
+	margin: 1em;
 }
 
 h4::first-letter {
@@ -44,7 +47,7 @@ h4::first-letter {
 h5 {
 	font-size: 190%;
 	color: #fff;
-	margin-top: 3em;
+	margin: 1em;
 }
 
 h5::first-letter {
@@ -55,7 +58,7 @@ h5::first-letter {
 h6 {
 	font-size: 100%;
 	color: #fff;
-	margin-top: 3em;
+	margin: 1em;
 }
 
 h6::first-letter {
@@ -64,17 +67,15 @@ h6::first-letter {
 }
 
 p {
-	font-family: 'PT Serif Caption', serif;
-	margin-top: .5em;
-	line-height: 110%;	
-	font-size: 140%;
+	margin: .5em;
+	line-height: 150%;
+	font-size: 120%;
 	color: #fff;
 	text-align: justify;
 }
 
 p::first-letter {
 	font-size: 150%;
-	color: #F2784B;
 }
 
 a {
