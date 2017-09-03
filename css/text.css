@@ -17,20 +17,10 @@ h2 {
 	text-align: center;
 }
 
-h2::first-letter {
-	font-size: 130%;
-	color: #F2784B;
-}
-
 h3 {
 	font-size: 240%;
 	color: #fff;
 	margin: 1em;
-}
-
-h3::first-letter {
-	font-size: 130%;
-	color: #F2784B;
 }
 
 h4 {
@@ -39,31 +29,17 @@ h4 {
 	margin: 1em;
 }
 
-h4::first-letter {
-	font-size: 130%;
-	color: #F2784B;
-}
-
 h5 {
 	font-size: 190%;
 	color: #fff;
 	margin: 1em;
 }
 
-h5::first-letter {
-	font-size: 130%;
-	color: #F2784B;
-}
 
 h6 {
 	font-size: 100%;
 	color: #fff;
 	margin: 1em;
-}
-
-h6::first-letter {
-	font-size: 130%;
-	color: #F2784B;
 }
 
 p {
@@ -72,10 +48,6 @@ p {
 	font-size: 120%;
 	color: #fff;
 	text-align: justify;
-}
-
-p::first-letter {
-	font-size: 150%;
 }
 
 a {
