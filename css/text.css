@@ -1,7 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption&subset=cyrillic');
+/* PEN */
+@import "http://fonts.fontstorage.com/import/celestina.css";
+/* font-family: 'Celestina'; */
+
+/* KID */
+@import "http://fonts.fontstorage.com/import/yessireebob.css"; 
+/* font-family: 'Yes siree bob'; */
+
+/* NARK */
+@import "http://fonts.fontstorage.com/import/lemontuesday.css";
+/* font-family: 'Lemon Tuesday'; */
+
+/* NORM */
+@import "http://fonts.fontstorage.com/import/lionel.css";
+/* font-family: 'Lionelofparis'; */
 
 * {
-	font-family: 'PT Serif Caption', serif;
+	font-family: 'Lionelofparis';
 	text-rendering: optimizeLegibility;
 	transition: all 1s ease;
 	user-select: none;
