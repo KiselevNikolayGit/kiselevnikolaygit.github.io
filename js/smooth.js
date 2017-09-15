@@ -1,25 +1,16 @@
-var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-var y = window.scrollY;
+var vw = document.getElementById("hdr").offsetHeight
 
 function scrlup() {
-    y = window.scrollY;
-    while (y > h) {
-        y = y - h
-    };
     window.scrollBy({
-        top: -window.innerHeight - y,
+        top: -vw,
         left: 0, 
         behavior: 'smooth' 
     });
 };
 
 function scrldown() {
-    y = window.scrollY;
-    while (y > h) {
-        y = y - h
-    };
     window.scrollBy({
-        top: window.innerHeight + y,
+        top: vw,
         left: 0, 
         behavior: 'smooth' 
     });
