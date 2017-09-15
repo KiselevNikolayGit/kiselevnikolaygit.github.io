@@ -1,10 +1,15 @@
 /* background: url(https://source.unsplash.com/5IHz5WhosQE/1600x900) no-repeat 50% 50%; */
 
 .c-1 {background-color: #FF6138}
+.c-1 *::selection {background-color: hsl(12, 100%, 59%)}
 .c-2 {background-color: #FFFF9D}
+.c-2 *::selection {background-color: hsl(60, 100%, 79%)}
 .c-3 {background-color: #BEEB9F}
+.c-3 *::selection {background-color: hsl(96, 66%, 75%)}
 .c-4 {background-color: #79BD8F}
+.c-4 *::selection {background-color: hsl(139, 34%, 59%)}
 .c-5 {background-color: #00A388}
+.c-5 *::selection {background-color: hsl(170, 100%, 30%)}
 
 html, body {
     /* overflow: hidden; */
@@ -23,14 +28,20 @@ div.wrapper {
     height: 100vh;
 }
 
+.box1x2 {
+    widows: 100vw;
+    height: 50vh;
+}
+
 .scroll-box {
     font-family: 'Lionelofparis';
     margin: 1em;
     font-size: 130%;
-    opacity: 0.5;
-    transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transform: scale(1);
+    transition: all 200ms 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+    cursor: pointer;
 }
 
 .scroll-box:hover {
-    opacity: 1;
+    transform: scale(1.5);
 }
