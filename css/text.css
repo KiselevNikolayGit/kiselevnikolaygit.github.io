@@ -8,59 +8,50 @@
 
 /* NARK */
 @import "http://fonts.fontstorage.com/import/lemontuesday.css";
-/* font-family: 'Lemon Tuesday'; */
+/* font-family: 'Lionelofparis'; */
 
 /* NORM */
 @import "http://fonts.fontstorage.com/import/lionel.css";
 /* font-family: 'Lionelofparis'; */
 
-* {
-	font-family: 'Lionelofparis';
+h1, h2, h3, h4, h5, h6, p, a {
 	text-rendering: optimizeLegibility;
-	transition: all 1s ease;
-	user-select: none;
+	margin: .1em 1em;
+}
+
+h1 {
+	font-size: 350%;
+	font-family: 'Lemon Tuesday';
 }
 
 h2 {
 	font-size: 300%;
-	color: #fff;
-	border-top: #fff .05em solid;
-	border-bottom: #fff .05em solid;
-	margin: 10%;
-	width: 80%;
-	text-align: center;
+	font-family: 'Lemon Tuesday';
 }
 
 h3 {
 	font-size: 240%;
-	color: #fff;
-	margin: 1em;
+	font-family: 'Celestina';
 }
 
 h4 {
 	font-size: 200%;
-	color: #fff;
-	margin: 1em;
+	font-family: 'Celestina';
 }
 
 h5 {
-	font-size: 190%;
-	color: #fff;
-	margin: 1em;
+	font-size: 170%;
+	font-family: 'Yes siree bob';
 }
 
-
 h6 {
-	font-size: 100%;
-	color: #fff;
-	margin: 1em;
+	font-size: 130%;
+	font-family: 'Yes siree bob';
 }
 
 p {
-	margin: .5em;
-	line-height: 150%;
 	font-size: 120%;
-	color: #fff;
+	font-family: 'Lionelofparis';
 	text-align: justify;
 }
 
@@ -68,13 +59,4 @@ a {
 	color: #fff;
 	text-decoration: underline #fff;
 	text-decoration-skip: ink;
-}
-
-a:hover {
-	text-decoration: underline #F2784B;
-	text-decoration-skip: ink;
-}
-
-.nomargin {
-	margin: 0;
 }

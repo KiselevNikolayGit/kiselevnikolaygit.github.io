@@ -1,38 +1,36 @@
-html {
-    background: #000;
+/* background: url(https://source.unsplash.com/5IHz5WhosQE/1600x900) no-repeat 50% 50%; */
+
+.c-1 {background-color: #92819F;}
+.c-2 {background-color: #C49BA8;}
+.c-3 {background-color: #E7A5A0;}
+.c-4 {background-color: #FFBB85;}
+.c-5 {background-color: #FFD77A;}
+
+html, body {
+    /* overflow: hidden; */
 }
 
-header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0.45) 100%), url(http://bestanimations.com/Nature/clouds-floating-over-himalaya-mountains-animated-gif.gif) 0 0 repeat;
-    background-position: 49% 49%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#pic1 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0.45) 100%), url(https://source.unsplash.com/tME8s001BNQ/1600x900) 0 0 repeat;
-    background-position: 49% 49%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#pic2 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0.45) 100%), url(https://source.unsplash.com/Y3PD_9c2xms/1600x900) 0 0 repeat;
-    background-position: 49% 49%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#pic3 {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0.45) 100%), url(https://source.unsplash.com/7Tr0JIWs7NA/1600x900) 0 0 repeat;
-    background-position: 49% 49%;
-    background-repeat: no-repeat;
-    background-size: cover;
+div.wrapper {
+    display: block;
+    flex-direction: column;
+    widows: 100vw;
+    height: 100vh;
+    background: #000000;
 }
 
 .box {
-    background-color: #222;
-    margin: 5em 1em;
-    padding: 1em;
-    transition: all 0.1s linear;
+    widows: 100vw;
+    height: 100vh;
+}
+
+.scroll-box {
+    font-family: 'Lionelofparis';
+    margin: 1em;
+    font-size: 130%;
+    opacity: 0.5;
+    transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.scroll-box:hover {
+    opacity: 1;
 }
