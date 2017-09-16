@@ -1,15 +1,19 @@
 /* background: url(https://source.unsplash.com/5IHz5WhosQE/1600x900) no-repeat 50% 50%; */
 
-.c-1 {background-color: #ff6138}
-.c-1 *::selection {background-color: hsl(12, 100%, 59%)}
-.c-2 {background-color: #ffff9d}
-.c-2 *::selection {background-color: hsl(60, 100%, 79%)}
-.c-3 {background-color: #beeb9f}
-.c-3 *::selection {background-color: hsl(96, 66%, 75%)}
-.c-4 {background-color: #79bd8f}
-.c-4 *::selection {background-color: hsl(139, 34%, 59%)}
-.c-5 {background-color: #00a388}
-.c-5 *::selection {background-color: hsl(170, 100%, 30%)}
+.c-0 {
+    background-color: #000000;
+    color: #ffffff;
+}
+.c-1 {background-color: #549359}
+.c-1 *::selection {background-color: rgba(255, 255, 255, .1);}
+.c-2 {background-color: #91BE66}
+.c-2 *::selection {background-color: rgba(255, 255, 255, .1);}
+.c-3 {background-color: #FFD44F}
+.c-3 *::selection {background-color: rgba(255, 255, 255, .1);}
+.c-4 {background-color: #F1A165}
+.c-4 *::selection {background-color: rgba(255, 255, 255, .1);}
+.c-5 {background-color: #5B9B9E}
+.c-5 *::selection {background-color: rgba(255, 255, 255, .1);}
 
 body, html {
     overflow: hidden;
@@ -63,7 +67,7 @@ div.wrapper {
 @keyframes nospin {
     0% {
         height: 100vh;
-        color: #000000;
+        color: #ffffff;
     }
     99% {
         height: 0;
