@@ -11,8 +11,8 @@
 .c-5 {background-color: #00a388}
 .c-5 *::selection {background-color: hsl(170, 100%, 30%)}
 
-html, body {
-    /* overflow: hidden; */
+body, html {
+    overflow: hidden;
 }
 
 div.wrapper {
@@ -33,15 +33,16 @@ div.wrapper {
     height: 50vh;
 }
 
-#spinner {
-    color: #ffffff;
+.tap {
+    opacity: .75;
+    margin: -1em;
 }
 
 .scroll-box {
     font-family: 'Lionelofparis';
     margin: 1em;
     font-size: 130%;
-    opacity: 0.35;
+    opacity: .75;
     transform: rotate(-15deg);
     animation: dancing 1s ease-in-out alternate infinite;
     cursor: pointer;
@@ -62,7 +63,7 @@ div.wrapper {
 @keyframes nospin {
     0% {
         height: 100vh;
-        color: #ffffff;
+        color: #000000;
     }
     99% {
         height: 0;
