@@ -43,13 +43,21 @@ div.wrapper {
 }
 
 .scroll-box {
+    background: none;
+    border: none;
     font-family: 'Lionelofparis';
-    margin: 1em;
     font-size: 130%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1em;
     opacity: .75;
     transform: rotate(-15deg);
     animation: dancing 1s ease-in-out alternate infinite;
     cursor: pointer;
+}
+
+.scroll-box:active, .scroll-box:focus {
+    outline: none;
 }
 
 @keyframes dancing {
