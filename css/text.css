@@ -30,7 +30,7 @@ h2 {
 	font-family: 'Lemon Tuesday';
 }
 
-h3 {
+h3, .head {
 	font-size: 240%;
 	font-family: 'Celestina';
 }
@@ -50,7 +50,7 @@ h6 {
 	font-family: 'Yes siree bob';
 }
 
-p {
+p, .text {
 	font-size: 120%;
 	font-family: 'Lionelofparis';
 	text-align: justify;
