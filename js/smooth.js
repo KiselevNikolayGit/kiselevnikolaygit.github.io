@@ -4,7 +4,7 @@ var vh = document.getElementById("hdr").offsetHeight;
 function scrlup() {
     for (var index = 0; index < vh; index++) {
         setTimeout(function() {
-            document.body.scrollBy(0, -1);
+            document.getElementById("scrollme").scrollTop += -1;
         }, (index * .6 + (index * 0.002)));
     };
 };
@@ -12,7 +12,7 @@ function scrlup() {
 function scrldown() {
     for (var index = 0; index < vh; index++) {
         setTimeout(function() {
-            document.body.scrollBy(0, 1);
+            document.getElementById("scrollme").scrollTop += 1;
         }, (index * .6 + (index * 0.002)));
     };  
 };
@@ -20,7 +20,7 @@ function scrldown() {
 function scrltonav() {
     for (var index = 0; index < vh; index++) {
         setTimeout(function() {
-            document.body.scrollBy(0, -3);
+            document.getElementById("scrollme").scrollTop += -3;
         }, (index * .6 + (index * 0.002)));
     };  
 };
