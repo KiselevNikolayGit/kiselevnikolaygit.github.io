@@ -24,6 +24,7 @@ if (mobile) {
     $(".m-fail-ai-start").css("align-items", "center");
     $(".m-fail-ai-start").css("justify-content", "start");
     $(".m-fail-ai-center").css("align-items", "center");    
+    $("html").css("font-size", "70%");    
 };
 
 
