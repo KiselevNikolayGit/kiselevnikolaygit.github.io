@@ -52,13 +52,22 @@ h6 {
 }
 
 p, .text {
-	font-size: .8rem;
+	font-size: 1rem;
 	font-family: 'Lionelofparis';
 	text-align: justify;
+	/* word-wrap: break-word; */
 }
 
 a {
 	color: #000000;
 	text-decoration: underline #000000;
 	text-decoration-skip: ink;
+}
+
+.no-marg {
+	margin: 0 0 !important;
+}
+
+.no-decor {
+	text-decoration: none;
 }

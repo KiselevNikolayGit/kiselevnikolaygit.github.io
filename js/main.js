@@ -12,15 +12,18 @@ setTimeout(home, 130);
 
 function onlo() {
     document.getElementById("spinner").style.animation = "nospin 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards 1";
-    alert("Николай Киселев работает над тем, чтоб хоть что-то перестало не работать и отвелекать от работы.");
+    // alert("Николай Киселев работает над тем, чтоб хоть что-то перестало не работать и отвелекать от работы.");
 };
 window.onload = function() {setTimeout(onlo, 50);};
 
 if (mobile) {
     $(".m-fail").css("flex-direction", "column");
-    $(".m-fail-grid").css("width", "100%");
+    $(".m-fail-grid").css("width", "90%");
     $(".m-fail-text").css("font-size", "75%");
     $(".m-fail-hide").css("display", "none");
+    $(".m-fail-ai-start").css("align-items", "center");
+    $(".m-fail-ai-start").css("justify-content", "start");
+    $(".m-fail-ai-center").css("align-items", "center");    
 };
 
 
@@ -29,50 +32,52 @@ if (mobile) {
 // ЧТО-ТО ЦИКЛЫ В JS НЕ ПОСЛУШНЫЕ СОВСЕМ.
 
 
+var speed = 100;
+
 $("#d1").click(function() {
     $('html, body').animate({
         scrollTop: $("#it2").offset().top
-    }, 1000);
+    }, speed);
 });
 
 $("#d2").click(function() {
     $('html, body').animate({
         scrollTop: $("#it3").offset().top
-    }, 1000);
+    }, speed);
 });
 
 $("#d3").click(function() {
     $('html, body').animate({
         scrollTop: $("#it4").offset().top
-    }, 1000);
+    }, speed);
 });
 
 $("#d4").click(function() {
     $('html, body').animate({
         scrollTop: $("#it5").offset().top
-    }, 1000);
+    }, speed);
 });
 
 $("#u2").click(function() {
     $('html, body').animate({
         scrollTop: $("#it1").offset().top
-    }, 1000);
+    }, speed);
 });
 
 $("#u3").click(function() {
     $('html, body').animate({
         scrollTop: $("#it2").offset().top
-    }, 1000);
+    }, speed);
 });
 
 $("#u4").click(function() {
     $('html, body').animate({
         scrollTop: $("#it3").offset().top
-    }, 1000);
+    }, speed);
 });
 
 $("#u5").click(function() {
     $('html, body').animate({
         scrollTop: $("#it4").offset().top
-    }, 1000);
+    }, speed);
 });

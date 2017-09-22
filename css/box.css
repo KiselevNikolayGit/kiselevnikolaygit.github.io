@@ -15,10 +15,6 @@
 .c-5 {background-color: #5B9B9E}
 .c-5 *::selection {background-color: rgba(255, 255, 255, .1);}
 
-body, html {
-    /*overflow: hidden;*/
-}
-
 div.wrapper {
     display: block;
     flex-direction: column;
@@ -27,15 +23,31 @@ div.wrapper {
     background: #000000;
 }
 
+.nav-box {
+    margin: 2em;
+    border: .1em dashed #000000;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .0) inset;
+    transition: all 1s ease;
+}
+
+.nav-box:hover {
+    border: .1em solid #000000;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .7) inset;
+}
+
 .box {
-    widows: 100vw;
+    width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
 .box1x2 {
-    widows: 100vw;
+    width: 100%;
     height: 50vh;
+}
+
+.pusher {
+    height: 100%;
 }
 
 .tap {
