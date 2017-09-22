@@ -32,30 +32,30 @@ if (mobile) {
 // ЧТО-ТО ЦИКЛЫ В JS НЕ ПОСЛУШНЫЕ СОВСЕМ.
 
 
-var speed = 100;
+var speed = 1000;
 
 $("#d1").click(function() {
     $('html, body').animate({
         scrollTop: $("#it2").offset().top
-    }, speed);
+    }, speed / 2);
 });
 
 $("#d2").click(function() {
     $('html, body').animate({
         scrollTop: $("#it3").offset().top
-    }, speed);
+    }, speed / 2);
 });
 
 $("#d3").click(function() {
     $('html, body').animate({
         scrollTop: $("#it4").offset().top
-    }, speed);
+    }, speed / 2);
 });
 
 $("#d4").click(function() {
     $('html, body').animate({
         scrollTop: $("#it5").offset().top
-    }, speed);
+    }, speed / 2);
 });
 
 $("#u2").click(function() {
