@@ -8,7 +8,7 @@
 .c-1 *::selection {background-color: rgba(255, 255, 255, .1);}
 .c-2 {background-color: #91BE66}
 .c-2 *::selection {background-color: rgba(255, 255, 255, .1);}
-.c-3 {background-color: #FFD44F}
+.c-3 {background-color: hsl(45, 90%, 69%)}
 .c-3 *::selection {background-color: rgba(255, 255, 255, .1);}
 .c-4 {background-color: #F1A165}
 .c-4 *::selection {background-color: rgba(255, 255, 255, .1);}
