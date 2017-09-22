@@ -18,40 +18,41 @@ h1, h2, h3, h4, h5, h6, p, a {
 	text-rendering: optimizeLegibility;
 	margin: .3em 1em;
 	color: #000000;
+	font-size: 100%;
 }
 
 h1 {
-	font-size: 350%;
+	font-size: 3.5rem;
 	font-family: 'Lemon Tuesday';
 }
 
 h2 {
-	font-size: 300%;
+	font-size: 3.0rem;
 	font-family: 'Lemon Tuesday';
 }
 
 h3, .h-text {
-	font-size: 240%;
+	font-size: 2.4rem;
 	font-family: 'Celestina';
 }
 
 h4 {
-	font-size: 200%;
+	font-size: 2.0rem;
 	font-family: 'Celestina';
 }
 
 h5 {
-	font-size: 170%;
+	font-size: 1.7rem;
 	font-family: 'Yes siree bob';
 }
 
 h6 {
-	font-size: 130%;
+	font-size: 1.3rem;
 	font-family: 'Yes siree bob';
 }
 
 p, .text {
-	font-size: 120%;
+	font-size: .8rem;
 	font-family: 'Lionelofparis';
 	text-align: justify;
 }

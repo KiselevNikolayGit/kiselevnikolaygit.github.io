@@ -1,6 +1,10 @@
 // Kisel made dat shit.
 
 
+var windowWidth = window.screen.width < window.outerWidth ?
+window.screen.width : window.outerWidth;
+var mobile = windowWidth < 500;
+
 function home() {
     window.scroll(0, 0);
 };
@@ -11,6 +15,13 @@ function onlo() {
     alert("Николай Киселев работает над тем, чтоб хоть что-то перестало не работать и отвелекать от работы.");
 };
 window.onload = function() {setTimeout(onlo, 50);};
+
+if (mobile) {
+    $(".m-fail").css("flex-direction", "column");
+    $(".m-fail-grid").css("width", "100%");
+    $(".m-fail-text").css("font-size", "75%");
+    $(".m-fail-hide").css("display", "none");
+};
 
 
 // МНЕ ОЧЕНЬ ЖАЛЬ ЧТО ПРИШЛОСЬ ПИСАТЬ
@@ -62,6 +73,6 @@ $("#u4").click(function() {
 
 $("#u5").click(function() {
     $('html, body').animate({
-        scrollTop: $("#it1").offset().top
+        scrollTop: $("#it4").offset().top
     }, 1000);
 });
