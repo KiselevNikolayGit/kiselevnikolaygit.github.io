@@ -14,7 +14,7 @@ function onlo() {
     document.getElementById("spinner").style.animation = "nospin 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards 1";
     // alert("Николай Киселев работает над тем, чтоб хоть что-то перестало не работать и отвелекать от работы.");
 };
-window.onload = function() {setTimeout(onlo, 50);};
+window.onload = function() {setTimeout(onlo, 150);};
 
 if (mobile) {
     $(".m-fail").css("flex-direction", "column");
