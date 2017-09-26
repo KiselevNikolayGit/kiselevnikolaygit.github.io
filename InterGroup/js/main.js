@@ -39,10 +39,16 @@ $("#d1").click(function() {
     $('html, body').animate({
         scrollTop: $("#it2").offset().top
     }, speed * 2);
+    $('#kisel-karet').animate({
+        scrollTop: $("#it2").offset().top
+    }, speed * 2);
 });
 
 $("#d2").click(function() {
     $('html, body').animate({
+        scrollTop: $("#it3").offset().top
+    }, speed * 2);
+    $('#kisel-karet').animate({
         scrollTop: $("#it3").offset().top
     }, speed * 2);
 });
@@ -51,10 +57,16 @@ $("#d3").click(function() {
     $('html, body').animate({
         scrollTop: $("#it4").offset().top
     }, speed * 2);
+    $('#kisel-karet').animate({
+        scrollTop: $("#it4").offset().top
+    }, speed * 2);
 });
 
 $("#d4").click(function() {
     $('html, body').animate({
+        scrollTop: $("#it5").offset().top
+    }, speed * 2);
+    $('#kisel-karet').animate({
         scrollTop: $("#it5").offset().top
     }, speed * 2);
 });
@@ -63,22 +75,34 @@ $("#u2").click(function() {
     $('html, body').animate({
         scrollTop: $("#it1").offset().top
     }, speed);
+    $('#kisel-karet').animate({
+        scrollTop: $("#it1").offset().top
+    }, speed * 2);
 });
 
 $("#u3").click(function() {
     $('html, body').animate({
         scrollTop: $("#it2").offset().top
     }, speed);
+    $('#kisel-karet').animate({
+        scrollTop: $("#it2").offset().top
+    }, speed * 2);
 });
 
 $("#u4").click(function() {
     $('html, body').animate({
         scrollTop: $("#it3").offset().top
     }, speed);
+    $('#kisel-karet').animate({
+        scrollTop: $("#it3").offset().top
+    }, speed * 2);
 });
 
 $("#u5").click(function() {
     $('html, body').animate({
         scrollTop: $("#it4").offset().top
     }, speed);
+    $('#kisel-karet').animate({
+        scrollTop: $("#it4").offset().top
+    }, speed * 2);
 });
