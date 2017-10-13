@@ -58,3 +58,19 @@
 	margin-top: .5rem;
 	margin-bottom: .5rem;
 }
+
+.text-bor-blue {
+	border-color: #57b2df;
+}
+
+.text-bor-purple {
+	border-color: #8558df;
+}
+
+.text-bor-orange {
+	border-color: #df8558;
+}
+
+.text-bor-green {
+	border-color: #b2df58;
+}
