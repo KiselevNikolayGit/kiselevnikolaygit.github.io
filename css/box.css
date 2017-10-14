@@ -45,3 +45,7 @@ div.wrapper {
 	background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
 	background-repeat: repeat;
 }
+
+#nav-field {
+	min-height: 100vh;
+}
