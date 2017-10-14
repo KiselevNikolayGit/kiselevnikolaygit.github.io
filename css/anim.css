@@ -1,0 +1,17 @@
+@keyframes repress {
+    from {
+        width: auto;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes press {
+    from {
+        width: 50%;
+    }
+    to {
+        width: auto;
+    }
+}
