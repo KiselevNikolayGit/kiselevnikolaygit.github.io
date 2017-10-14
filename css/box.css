@@ -1,14 +1,18 @@
 /* background: url(https://source.unsplash.com/5IHz5WhosQE/1600x900) no-repeat 50% 50%; */
 
-.no-marg {
-	margin: 0 0 !important;
-}
-
 div.wrapper {
     display: block;
     flex-direction: column;
     widows: 100vw;
     height: 100vh;
+}
+
+.back-white {
+	background-color: #ffffff;
+}
+
+.back-black {
+	background-color: #000000;
 }
 
 .back-blue {
@@ -25,4 +29,19 @@ div.wrapper {
 
 .back-green {
 	background-color: #b2df58;
+}
+
+.brd-dix {
+	background-image: url("https://www.transparenttextures.com/patterns/white-paperboard.png");
+	background-repeat: repeat;
+}
+
+.wav-dix {
+	background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+	background-repeat: repeat;
+}
+
+.lin-dix {
+	background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
+	background-repeat: repeat;
 }

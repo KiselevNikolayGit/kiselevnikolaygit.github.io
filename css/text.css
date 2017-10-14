@@ -13,9 +13,13 @@
 	text-decoration-skip: ink;
 }
 
+.link:visited {
+	color: black;
+}
+
 .text-slab {
 	font-family: 'Roboto Slab', serif;
-	border-left: .35rem #57b2df solid;
+	border-left: .5rem #57b2df solid;
 	padding: 0 .5rem;
 	margin: 0 5rem;
 }
@@ -57,6 +61,18 @@
 .text-list * {
 	margin-top: .5rem;
 	margin-bottom: .5rem;
+}
+
+.text-bor-no {
+	border: none;
+}
+
+.text-bor-blue {
+	border-color: #ffffff;
+}
+
+.text-bor-black {
+	border-color: #000000;
 }
 
 .text-bor-blue {

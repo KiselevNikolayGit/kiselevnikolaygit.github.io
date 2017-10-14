@@ -2,6 +2,12 @@ article, aside, div, footer, header, nav, section {
 	display: flex;
 }
 
+.sticky {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
 .wrap {
 	flex-wrap: wrap;
 }
@@ -296,4 +302,171 @@ article, aside, div, footer, header, nav, section {
 .g19x19 {width: 100.0%;}
 .g19x20 {width: 95.0%;}
 .g20x20 {width: 100.0%;}
-.mlogo {margin: 0em 0em 4em 0em;}
+
+.m-0 {
+	margin: 0;
+}
+
+.m-xs {
+	margin: .25rem;
+}
+
+.m-s {
+	margin: .5rem;
+}
+
+.m-n {
+	margin: .75rem;
+}
+
+.m-l {
+	margin: 1rem;
+}
+
+.m-xl {
+	margin: 1.5rem;
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.p-xs {
+	padding: .25rem;
+}
+
+.p-s {
+	padding: .5rem;
+}
+
+.p-n {
+	padding: .75rem;
+}
+
+.p-l {
+	padding: 1rem;
+}
+
+.p-xl {
+	padding: 1.5rem;
+}
+
+.m-s-0 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.m-s-xs {
+	margin-left: .25rem;
+	margin-right: .25rem;
+}
+
+.m-s-s {
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+
+.m-s-n {
+	margin-left: .75rem;
+	margin-right: .75rem;
+}
+
+.m-s-l {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.m-s-xl {
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+}
+
+.p-s-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.p-s-xs {
+	padding-left: .25rem;
+	padding-right: .25rem;
+}
+
+.p-s-s {
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.p-s-n {
+	padding-left: .75rem;
+	padding-right: .75rem;
+}
+
+.p-s-l {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.p-s-xl {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.m-f-0 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.m-f-xs {
+	margin-top: .25rem;
+	margin-bottom: .25rem;
+}
+
+.m-f-s {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.m-f-n {
+	margin-top: .75rem;
+	margin-bottom: .75rem;
+}
+
+.m-f-l {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.m-f-xl {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.p-f-0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.p-f-xs {
+	padding-top: .25rem;
+	padding-bottom: .25rem;
+}
+
+.p-f-s {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+
+.p-f-n {
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+}
+
+.p-f-l {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.p-f-xl {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
