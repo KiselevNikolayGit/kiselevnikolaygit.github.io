@@ -10,3 +10,19 @@ div.wrapper {
     widows: 100vw;
     height: 100vh;
 }
+
+.back-blue {
+	background-color: #57b2df;
+}
+
+.back-purple {
+	background-color: #8558df;
+}
+
+.back-orange {
+	background-color: #df8558;
+}
+
+.back-green {
+	background-color: #b2df58;
+}
