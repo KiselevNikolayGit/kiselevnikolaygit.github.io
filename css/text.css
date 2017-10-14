@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Slab:700|Rubik+Mono+One&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Roboto+Slab:700|Rubik+Mono+One&subset=cyrillic');
 
 
 *[class^='text'], *[class*=' text'] {
 	text-rendering: optimizeLegibility;
-	font-family: 'PT Serif', serif;
+	font-family: 'Bad Script', cursive;
 	margin: 1rem;
 }
 
