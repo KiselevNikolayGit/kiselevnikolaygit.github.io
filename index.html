@@ -23,6 +23,7 @@
 		<link rel="stylesheet" href="css/text.css">
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/box.css">
+		<link rel="stylesheet" href="css/shad.css">
 		<link rel="stylesheet" href="css/anim.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- CDN -->
@@ -30,45 +31,38 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="row g1x1 flex-aro ai-cen back-blue brd-dix">
-				<img class="m-xl" src="ArtelBear.svg">
-				<h1 class="p-n back-orange wav-dix t11 text-heavy">The Artel Bear</h1>
+			<header class="row flex-cen ai-cen p-n one-dix back-blue">
+				<h3 class="text-head t20">The Artel Bear</h3>
 			</header>
-			<section class="flex-str ai-st">
-				<section id="nav-out" class="g1x2 col back-green lin-dix">
-					<article class="m-l row sticky flex-sta">
-						<span class="m-f-s m-s-0 t10 text-slab text-bor-no"><i id="compass" class="fa fa-compass" aria-hidden="true"></i></span>
-						<nav id="nav-in" class="col">
-							<h2 class="m-f-s m-s-0 t10 text-slab text-bor-no">Navigation</h2>
-							<ul class="text-list">
-								<li><a href="/" class="link m-s-0 t8 text-slab text-bor-no">Home</a></li>
-								<li><a href="/404" class="link m-s-0 t8 text-slab text-bor-no"></a></li>
-							</ul>
-						</nav>
-					</article>
-				</section>
-				<section id="nav-field" class="g1x1 col">
-					<article class="m-xl col">
-						<h2 class="m-f-s m-s-xl t10 text-slab text-bor-blue">Since 2012</h2>
-						<p class="m-xl t6 text">Hello, my name is Nikolay. I have been working in IT since 2012. In 2017 I was launched the «Artel Bear». Now in our community there are more than ten specialists. We are currently creating websites. We used to create games for Android, components for game development (for example graphic data storage systems with the highest compression ratio) and many other interesting things. We are familiar with Python, Lua, JavaScript and Ruby. But also we are great professionals in design and graphics.</p>
-					</article>
-					<article class="m-xl col">
-						<h2 class="m-f-s m-s-xl t10 text-slab text-bor-purple">Remont</h2>
-						<p class="m-xl t6 text">sorry</p>
-					</article>
-					<article class="m-xl col">
-						<h2 class="m-f-s m-s-xl t10 text-slab text-bor-orange">Remont</h2>
-						<p class="m-xl t6 text">sorry</p>
-					</article>
-					<article class="m-xl col">
-						<h2 class="m-f-s m-s-xl t10 text-slab text-bor-green">Remont</h2>
-						<p class="m-xl t6 text">sorry</p>
-					</article>
-				</section>
-			</section>
-			<footer class="row g1x1 flex-aro ai-cen back-blue wav-dix">
-				<i class="m-xl fa fa-copyright fa-5x" aria-hidden="true"></i>
-				<h3 class="m-n p-n back-purple brd-dix t11 text-slab text-bor-no">2017 KiselevNikolay</h3>
+			<div class="row flex-str ai-str p-0 m-0">
+				<nav class="g2x5 col flex-sta ai-sta p-n alt-dix back-orange shad1">
+					<header>
+						<h2 class="text-slab t10"><i class="fa fa-compass" aria-hidden="true"></i> Navigation</h2>
+					</header>
+					<ul class="text-list">
+						<li class="text t8 link">Link</li>
+						<li class="text t8 link">Link</li>
+						<li class="text t8 link">Link</li>
+						<li class="text t8 link">Link</li>
+						<li class="text t8 link">Link</li>
+						<li class="text t8 link">Link</li>
+					</ul>
+				</nav>
+				<article class="g3x5 col flex-sta ai-sta p-n two-dix back-green shad2">
+					<header class="g1x1 col flex-cen ai-cen">
+						<h2 class="text-slab t10">About us</h2>
+					</header>
+					<h3 class="text-slab t8">Since 2012</h3>
+					<p class="text t6">Hello, my name is Nikolay. I have been working in IT since 2012. In 2017 I was launched the «Artel Bear». Now in our community there are more than ten specialists. We are currently creating websites. We used to create games for Android, components for game development (for example graphic data storage systems with the highest compression ratio) and many other interesting things. We are familiar with Python, Lua, JavaScript and Ruby. But also we are great professionals in design and graphics.</p>
+					<footer class="g1x1 col flex-end ai-end">
+						<a class="m-xs text-slab t5 opac link" href="join">Do you want to join us?</a>
+						<a class="m-xs text-slab t5 opac link" href="contact">Do you want to contact us?</a>
+					</footer>
+				</article>
+			</div>
+			<footer class="mfooter row flex-aro ai-cen p-n one-dix back-purple">
+				<i class="fa fa-copyright fa-3x" aria-hidden="true"></i>
+				<h2 class="text-head t14">Copyright 2017 KiselevNikolay</h2>
 			</footer>
 		</div>
 		<script src="js/main.js"></script>

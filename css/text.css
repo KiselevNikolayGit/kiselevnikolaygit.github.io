@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Bad+Script|Roboto+Slab:700|Rubik+Mono+One&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab:700|Quicksand&subset=cyrillic');
 
 
 *[class^='text'], *[class*=' text'] {
 	text-rendering: optimizeLegibility;
-	font-family: 'Bad Script', cursive;
+	font-family: 'Bree Serif', serif;
 	margin: 1rem;
 }
 
@@ -19,14 +19,11 @@
 
 .text-slab {
 	font-family: 'Roboto Slab', serif;
-	border-left: .5rem #57b2df solid;
-	padding: 0 .5rem;
-	margin: 0 5rem;
+
 }
 
-.text-heavy {
-	font-family: 'Rubik Mono One', sans-serif;
-	border-bottom: .75rem black solid;
+.text-head {
+	font-family: 'Quicksand', sans-serif;
 }
 
 .no-decor {
@@ -63,30 +60,43 @@
 	margin-bottom: .5rem;
 }
 
-.text-bor-no {
-	border: none;
-}
-
 .text-bor-blue {
-	border-color: #ffffff;
+	border-left: .5rem #ffffff solid;
+	padding: 0 .5rem;
+	margin: 0 5rem;
 }
 
 .text-bor-black {
-	border-color: #000000;
+	border-left: .5rem #000000 solid;
+	padding: 0 .5rem;
+	margin: 0 5rem;
 }
 
 .text-bor-blue {
-	border-color: #57b2df;
+	border-left: .5rem #57b2df solid;
+	padding: 0 .5rem;
+	margin: 0 5rem;
 }
 
 .text-bor-purple {
-	border-color: #8558df;
+	border-left: .5rem #8558df solid;
+	padding: 0 .5rem;
+	margin: 0 5rem;
 }
 
 .text-bor-orange {
-	border-color: #df8558;
+	border-left: .5rem #df8558 solid;
+	padding: 0 .5rem;
+	margin: 0 5rem;
 }
 
 .text-bor-green {
-	border-color: #b2df58;
+	border-left: .5rem #b2df58 solid;
+	padding: 0 .5rem;
+	margin: 0 5rem;
+}
+
+.break-word-force {
+	width: auto;
+	white-space: pre-line;
 }

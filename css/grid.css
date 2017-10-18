@@ -92,6 +92,14 @@ article, aside, div, footer, header, nav, section {
     flex-direction: column;
 }
 
+.row-r {
+	flex-direction: row-reverse;
+}
+
+.col-r {
+    flex-direction: column-reverse;
+}
+
 .g1x1 {width: 100.0%;}
 .g1x2 {width: 50.0%;}
 .g1x3 {width: 33.333333333333336%;}
