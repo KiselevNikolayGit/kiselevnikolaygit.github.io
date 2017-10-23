@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab:700|Quicksand&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab:700|Kaushan+Script&subset=cyrillic');
 
 
 *[class^='text'], *[class*=' text'] {
+	text-shadow: 0 0 .1em rgba(255, 255, 255, .5); !important;
 	text-rendering: optimizeLegibility;
 	font-family: 'Bree Serif', serif;
+	color: #ffffff;
 	margin: 1rem;
 }
 
 .link {
-	color: black;
-	text-decoration: underline black;
+	text-decoration: underline white;
 	text-decoration-skip: ink;
 }
 
 .link:visited {
-	color: black;
+	color: white;
 }
 
 .text-slab {
@@ -23,7 +24,7 @@
 }
 
 .text-head {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Kaushan Script', cursive;
 }
 
 .no-decor {

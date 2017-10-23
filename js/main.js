@@ -1,4 +1,4 @@
-alert("SITE IS NOT SUCH NOT YOU KNOW WHAT I MEEN?");
+// alert("SITE IS NOT SUCH NOT YOU KNOW WHAT I MEEN?");
 
 var windowWidth = window.screen.width < window.outerWidth ?
 window.screen.width : window.outerWidth;
