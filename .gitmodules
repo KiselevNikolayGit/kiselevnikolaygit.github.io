@@ -1,0 +1,3 @@
+[submodule "bearworkit"]
+	path = bearworkit
+	url = https://github.com/artelbear/bearworkit.git
