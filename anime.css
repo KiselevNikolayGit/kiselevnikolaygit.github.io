@@ -1,0 +1,18 @@
+.things {
+	-webkit-animation: up 1s ease-in forwards;
+	-o-animation: up 1s ease-in forwards;
+	animation: up 1s ease-in forwards;
+	opacity: 0;
+	transform: translateY(-60px);
+}
+
+@keyframes up {
+	from {
+		transform: translateY(-60px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

@@ -1,0 +1,228 @@
+<!-- Kiselev Nikolay pilil eto -->
+<!-- Have a nice watch, man. -->
+
+<!doctype html>
+
+<html lang="ru">
+
+  <head>
+    <title>&shy;</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="./logo.png?v=1.00.000">
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110233212-1"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110233212-1');
+    </script>
+
+    
+    <!-- Initialize Firebase -->
+    
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    
+    <script>
+      var config = {
+        apiKey: "AIzaSyCl89hBqDWirtv2XyYA2ngX-ku1YKYoruc",
+        authDomain: "arbeasblog.firebaseapp.com",
+        databaseURL: "https://arbeasblog.firebaseio.com",
+        projectId: "arbeasblog",
+        storageBucket: "arbeasblog.appspot.com",
+        messagingSenderId: "394494700573"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./font-awesome/css/fontawesome-all.min.css?v=1.00.000">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css?v=1.00.000">
+    <link rel="stylesheet" href="./fonts/fonts.css?v=1.00.000">
+    <link rel="stylesheet" href="./anime.css?v=AAAAAAAAAAAA">
+    <link rel="stylesheet" href="./tweak.css?v=AAAAAAAAAAAA">
+
+  </head>
+
+  <body class="fade hide">
+
+    <!-- Navigator in header -->
+
+    <header class="navbar navbar-toggleable navbar-expand-lg navbar-toggleable-md navbar-light bg-faded">
+      
+      <!-- Togler, than screen lower LARGE -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Brand icon -->
+      <a class="notyetthings navbar-brand px-1 pb-2 pt-1" href="/">
+        <img src="logo.svg?v=1.00.000" height="60px" alt="">
+      </a>
+      
+      <!-- Links, expanded than LARGE. Colapsed then lower -->
+      <div class="collapse navbar-collapse mr-auto" id="navbarTogglerDemo01">
+        <!-- Links row (LARGE) and column (LOWER) -->
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Лента <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Сообщения <span id="InboxM" class="badge badge-primary"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Уведомления <span id="InboxB" class="badge badge-warning"></span></a>
+          </li>
+        </ul>
+        
+        <!-- Instruments as fixed windows popups -->
+        
+        <div class="btn-group my-1 p-0 align-items-center justify-content-md-end justify-content-center" role="group" aria-label="Templates for post">
+          
+          <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#News">
+            <i class="far mr-1 fa-newspaper"> </i>
+            <span class="mr-1">Новость</span>
+          </button>
+
+          <button class="sr-only btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#Bells">
+            <i class="far mr-1 fa-bell"> </i>
+            <span class="mr-1">Сигнал</span>
+          </button>
+          
+          <button class="sr-only btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#Quests">
+            <i class="far mr-1 fa-question-circle"> </i>
+            <span class="mr-1">Вопрос</span>
+          </button>
+          
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Login">
+            <i class="far mr-1 fa-user"> </i>
+            <span id="CurrentLog" class="mr-1">Вход</span>
+          </button>
+
+        </div>
+
+      </div>
+    </header>
+    
+    <!-- Fixed windows popups -->
+
+    <!-- News window -->
+    <div class="collapse FScroll fixed-bottom bg-white p-2 h-100" id="News">
+      <!-- Close button -->
+      <button class="btn bth-link w-100 text-right nofocus noshadow" type="button" data-toggle="collapse" data-target="#News">
+        <i class="far fa-2x fa-window-close text-danger m-1"></i>
+      </button>
+      <!-- Form for new (read like post) -->
+      <form id="NewNew">
+        <div class="form-group">
+          <label for="NewTitle">Заголовок</label>
+          <input type="text" class="form-control" id="NewTitle" placeholder="Без заголовка">
+        </div>
+        <div class="form-group">
+          <label for="New">Не заголовок</label>
+          <textarea class="form-control" placeholder="Без не заголовок" id="New" rows="8"></textarea>
+        </div>
+        <button class="btn btn-primary my-1" type="submit" data-toggle="collapse" data-target="#News">Опубликовать</button>
+      </form>
+    </div>
+
+    <!-- Bells window -->
+    <div class="collapse FScroll fixed-bottom bg-white p-2 h-100" id="Bells">
+      <!-- Close button -->
+      <button class="btn bth-link w-100 text-right nofocus noshadow" type="button" data-toggle="collapse" data-target="#Bells">
+        <i class="far fa-2x fa-window-close text-danger m-1"></i>
+      </button>
+      <!-- Form for bell (read like bell post) -->
+      <form>
+        <div class="form-group">
+          <label for="BellTitle">Тема</label>
+          <input type="email" class="form-control" id="BellTitle" placeholder="Рекомендуется заполнить">
+        </div>
+        <div class="form-group">
+          <label for="Bell">Содержание</label>
+          <textarea class="form-control" placeholder="Будьте конкретны и коротки" id="Bell" rows="3"></textarea>
+        </div>
+        <button class="btn btn-warning my-1" type="submit" data-toggle="collapse" data-target="#Bells">Сообщить</button>
+      </form>
+    </div>
+    
+    <!-- Quest window -->
+    <div class="collapse FScroll fixed-bottom bg-white p-2 h-100" id="Quests">
+      <!-- Close button -->
+      <button class="btn btn-link nofocus noshadow w-100 text-right" type="button" data-toggle="collapse" data-target="#Quests">
+        <i class="far fa-2x fa-window-close text-danger m-1"></i>
+      </button>
+      <!-- Form for question (read like question post) -->
+      <form>
+        <div class="form-group">
+          <label for="QuestTitle">О чем хотите спросить</label>
+          <input type="email" class="form-control" id="QuestTitle" placeholder="Как задать вопрос на этом сайте?">
+        </div>
+        <div class="form-group">
+          <label for="Quest">Детали</label>
+          <textarea class="form-control" placeholder="Мне уже 72 года. Я человапуыкшуцкиамгшпцит" id="Quest" rows="3"></textarea>
+        </div>
+        <button class="btn btn-primary my-1" type="submit" data-toggle="collapse" data-target="#Quests">Спросить?</button>
+      </form>
+    </div>
+
+    <!-- Login window -->
+    <div class="collapse FScroll fixed-bottom bg-white p-2 h-100" id="Login">
+      <!-- Close button -->
+      <button class="btn btn-link nofocus noshadow w-100 text-right" type="button" data-toggle="collapse" data-target="#Login" onclick="window.location.reload(true);">
+        <i class="far fa-2x fa-window-close text-danger m-1"></i>
+      </button>
+      <!-- Login and logout form -->
+      <form id="LoginForm" action="#">
+        <label class="h4">Вход</label>
+        <div class="input-group my-1">
+          <input id="Name" type="text" class="form-control" placeholder="Имя">
+        </div>
+        <div class="input-group my-1">
+          <input id="Answer" type="text" class="form-control" placeholder="Что вы любите больше всего?">
+        </div>
+        <button id="LogIny" class="btn btn-primary my-1">Войти</button>
+        <button id="LogRegy" class="btn btn-link my-1">или Зарегистрироваться</button>
+      </form>
+    </div>
+
+    <!-- Feed -->
+    <section class="container p-2">
+      <!-- Header -->
+      <header>
+        <h2 class="text-center">Лента</h2>
+      </header>
+      <!-- TheMainFeed -->
+      <section id="lentach"></section>
+      <!-- End of endless -->
+      <footer>
+        <h6 class="text-center text-muted">Показанны все последние новости</h6>
+      </footer>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white d-flex justify-content-start align-items-center p-5">
+      <!-- Copyright -->
+      <h4 class="w-50"><i class="far fa-copyright"></i> Киселев Николай 2017</h4>
+    </footer>
+
+    <!-- Librs JavaScript -->
+    <script src="./js/jquery-3.2.1.min.js?v=1.00.000"></script>
+    <script src="./js/jquery.cookie.js?v=1.00.000"></script>
+    <script src="./js/popper.min.js?v=1.00.000"></script>
+    <script src="./bootstrap/js/bootstrap.min.js?v=1.00.000"></script>
+
+    <!-- My JavaScript -->
+    <script src="./js/index.js?v=AAAAAAAAAAAA"></script>
+  </body>
+</html>
