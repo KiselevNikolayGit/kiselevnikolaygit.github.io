@@ -1,5 +1,9 @@
 // By Kiselev Nikolay
-// For site http://artelbear.space/
+// For site http://yellow-hi.tech/
+
+
+var md = new markdownit();
+
 
 // Declaring prototype functions
 
@@ -77,12 +81,12 @@ function NewUser(Username, Answer) {
   return firebase.database().ref().update(updates);
 }
 function NewNew(NewName, Body) {
-  var THEauth = LoadCookie("132413_q141asf2_wewe");
+  var THEauth = LoadCookie("bjbfgfbnmtgyfntrs235c64vb@Z34@!q234542@!#Q3") || "";
   var NewCard = {
     title: NewName,
     content: Body,
     rating: 0,
-    author: THEauthx,
+    author: THEauth,
     time: + new Date()
   };
   var NewKey = firebase.database().ref().child('News').push().key;
@@ -94,21 +98,8 @@ function NewNew(NewName, Body) {
 
 // Body
 
-$("body").removeClass('hide');
-$("body").addClass('show');
-
-$(".notyetthings").addClass('things');
-$(".notyetthings").removeClass('notyetthings');
-
-$("[data-bind='popover']").popover({
-  trigger: 'hover',
-  html: true,
-  content: function(){ 
-      return $(this).data('content');
-  }
-});
-
-var Meme = LoadCookie("132413_q141asf2_wewe");
+var Meme = LoadCookie("bjbfgfbnmtgyfntrs235c64vb@Z34@!q234542@!#Q3");
+console.log(Meme);
 if (Meme != undefined) {
   LogSuc(Meme);
 }
@@ -116,7 +107,7 @@ if (Meme != undefined) {
 function LogSuc(Name) {
   $("#Login").removeClass('show');
   console.log("Logined ass " + Name);
-  CreateCookie("132413_q141asf2_wewe", Name);
+  CreateCookie("bjbfgfbnmtgyfntrs235c64vb@Z34@!q234542@!#Q3", Name);
   $("#CurrentLog").text(Name);
   var Ref = firebase.database().ref('users/' + Name);
   Ref.on('value', function(snapshot) {
@@ -129,7 +120,7 @@ function LogSuc(Name) {
 }
 
 $("#LogIny").click(function(event) {
-  RemoveCookie("132413_q141asf2_wewe");
+  RemoveCookie("bjbfgfbnmtgyfntrs235c64vb@Z34@!q234542@!#Q3");
   var Name = $("#Name").val();
   Name = Name.MakeNormal();
   var Answer = $("#Answer").val();
@@ -147,7 +138,7 @@ $("#LogIny").click(function(event) {
 });
 
 $("#LogRegy").click(function(event) {
-  RemoveCookie("132413_q141asf2_wewe");
+  RemoveCookie("bjbfgfbnmtgyfntrs235c64vb@Z34@!q234542@!#Q3");
   var Name = $("#Name").val();
   Name = Name.MakeNormal("_");
   var Answer = $("#Answer").val();
@@ -185,7 +176,7 @@ Ref.on('value', function(snapshot) {
     var New = childSnapshot.val();
     var Time = ToClassicDate(New.createtime);
     var Body = New.content;
-    Body = Body.replace(/\n/g,'<br>')
+    Body = md.render(Body)
     var Clone = Bullet.Format(New.title, Body);
     $("#lentach").append(Clone);
   });

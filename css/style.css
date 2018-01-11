@@ -1,0 +1,47 @@
+#PROJECT111111 {
+	width: 98%;
+	margin: 1%;
+	margin-top: 60px;
+}
+
+
+
+
+
+html {
+	font-size: 100%;
+}
+
+html * {
+	transition: all 230ms ease-out;
+}
+
+header {
+	display: flex;
+	position: relative;
+	height: 50px;
+	background-color: #eee;
+	border-bottom: 1px solid #cecece;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	left: 50vw;
+	margin-left: -50px;
+	margin-right: -50px;
+	border-radius: 50%;
+}
+
+header i {
+	color: #cecece;
+	margin: 1rem
+}
+
+header i:hover {
+	color: #ffde20;
+}
