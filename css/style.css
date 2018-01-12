@@ -1,27 +1,25 @@
-#PROJECT111111 {
-	width: 98%;
-	margin: 1%;
-	margin-top: 60px;
-}
-
-
-
-
-
 html {
 	font-size: 100%;
+	overflow: none;
 }
 
-html * {
+body {
+	background-color: #222;
+	width: 100vw;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body * {
 	transition: all 230ms ease-out;
+	box-sizing: border-box;
 }
 
 header {
 	display: flex;
 	position: relative;
-	height: 50px;
-	background-color: #eee;
-	border-bottom: 1px solid #cecece;
+	height: 70px;
+	background-color: #111;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -30,7 +28,7 @@ header img {
 	width: 100px;
 	height: 100px;
 	position: absolute;
-	top: 0px;
+	top: 10px;
 	left: 50vw;
 	margin-left: -50px;
 	margin-right: -50px;
@@ -38,10 +36,51 @@ header img {
 }
 
 header i {
-	color: #cecece;
+	color: #444;
 	margin: 1rem
 }
 
 header i:hover {
 	color: #ffde20;
+}
+
+button {
+	margin: .4rem;
+	padding: .4rem;
+	color: #444;
+	border: .1rem solid #444;
+	background-color: transparent;
+	border-radius: 5px;
+	outline: none;
+}
+
+button:hover, button:focus {
+	outline: none;
+	color: #ffde20;
+	border: .1rem solid #ffde20;
+}
+
+
+
+img.fluid {
+	width: 100%;
+}
+
+img.pj-1 {
+	display: inline-flex;
+	width: 90%;
+	height: auto;
+	padding: .4rem;
+	background-color: white;
+	overflow-y: scroll;
+}
+
+button.pj-1 {}
+
+div.butholder {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	overflow-x: hidden;
+	justify-content: space-around;
 }
