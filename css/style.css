@@ -7,7 +7,8 @@ body {
 	background-color: #222;
 	width: 100vw;
 	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow-y: hidden;
+	/*overflow-y: scroll;*/
 }
 
 body * {
@@ -15,11 +16,10 @@ body * {
 	box-sizing: border-box;
 }
 
-header {
+header{
 	display: flex;
 	position: relative;
 	height: 70px;
-	background-color: #111;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -33,6 +33,7 @@ header img {
 	margin-left: -50px;
 	margin-right: -50px;
 	border-radius: 50%;
+	z-index: 5;
 }
 
 header i {
@@ -83,4 +84,44 @@ div.butholder {
 	width: 100%;
 	overflow-x: hidden;
 	justify-content: space-around;
+}
+
+
+/* Colors */
+.e-darker {
+	background-color: #111;
+}
+.e-black {
+	background-color: #000;
+}
+
+
+/* PLAY */
+div.play.square-bar {
+	display: flex;
+	flex-direction: row;
+	height: 25px;
+}
+
+div.play.square {
+	width: 5vw;
+	text-align: center;
+	color: transparent;
+}
+
+div.play.square.active {
+	color: #ffde20;
+}
+
+.jswake {
+	opacity: 0;
+	display: none;
+}
+
+
+/* ID */
+
+#deTestWai {
+	margin: 0;
+	padding: 0;
 }

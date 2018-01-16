@@ -16,8 +16,8 @@
     
     <!-- Initialize Firebase -->
     
-    <script src='https://www.gstatic.com/firebasejs/4.8.1/firebase.js'></script>
-    <script>
+    <script type="text/javascript" src='https://www.gstatic.com/firebasejs/4.8.1/firebase.js'></script>
+    <script type="text/javascript">
       // Initialize Firebase
       var config = {
         apiKey: 'AIzaSyC0PNjNJrg9PT13RH2EhQG8lAZlT71AWWw',
@@ -33,55 +33,59 @@
 
     <!-- CSS -->
 
-    <link rel='stylesheet' href='./font-awesome/css/fontawesome-all.min.css?v=1.00.000'>
-    <link rel='stylesheet' href='./fonts/fonts.css?v=1.00.000'>
-    <link rel='stylesheet' href='./css/reset.css?v=1.00.000'>
-    <link rel='stylesheet' href='./css/style.css?v=1.00.000'>
+    <link rel='stylesheet' href='./font-awesome/css/fontawesome-all.min.css'>
+    <link rel='stylesheet' href='./fonts/fonts.css'>
+    <link rel='stylesheet' href='./css/reset.css'>
+    <link rel='stylesheet' href='./css/style.css'>
 
   </head>
 
   <body>
+    
+    <!-- Super hiTech bar -->
+    <div class="play square-bar e-black">
+      <div class="play square jsprogress000">000</div>
+      <div class="play square jsprogress005">005</div>
+      <div class="play square jsprogress010">010</div>
+      <div class="play square jsprogress015">015</div>
+      <div class="play square jsprogress020">020</div>
+      <div class="play square jsprogress025">025</div>
+      <div class="play square jsprogress030">030</div>
+      <div class="play square jsprogress035">035</div>
+      <div class="play square jsprogress040">040</div>
+      <div class="play square jsprogress045">045</div>
+      <div class="play square jsprogress050">050</div>
+      <div class="play square jsprogress055">055</div>
+      <div class="play square jsprogress065">065</div>
+      <div class="play square jsprogress070">070</div>
+      <div class="play square jsprogress075">075</div>
+      <div class="play square jsprogress080">080</div>
+      <div class="play square jsprogress085">085</div>
+      <div class="play square jsprogress090">090</div>
+      <div class="play square jsprogress095">095</div>
+      <div class="play square jsprogress100">100</div>
+    </div>
 
-    <header>
+    <header class="e-darker">
       <i class="fas fa-circle"></i>
-      <img src='./logo.png?v=1.00.000' alt=''>
+      <img class="jswake" src='./logo.png' alt=''>
       <i class="fas fa-circle"></i>
     </header>
     
-    <img class="fluid" src="https://source.unsplash.com/HgPAUR1ALJQ/1800x400" alt="">
-    <br>
-    
-    <div class="butholder">
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-      <button class="pj-1">Кнопка!</button>
-    </div>
+    <canvas id="deTestWai" width="1000px" height="1000px"></canvas>
 
     <!-- Librs JavaScript -->
-    <script src='./js/jquery-3.2.1.min.js?v=1.00.000'></script>
-    <script src='./js/jquery.cookie.js?v=1.00.000'></script>
-    <script src='./js/markdown-it.js?v=1.00.000'></script>
+    <script type="text/javascript" src='./js/jquery-3.2.1.min.js'></script>
+    <script type="text/javascript" src='./js/jquery.cookie.js'></script>
+    <script type="text/javascript" src='./js/markdown-it.js'></script>
 
     <!-- My JavaScript -->
-    <script src='./js/index.js?v=1.00.000'></script>
-    <script src='./js/animation.js?v=1.00.000'></script>
+    <script type="text/javascript" src='./js/index.js'></script>
+    <script type="text/javascript" src='./js/animation.js'></script>
+
+    <!-- Draw staff -->
+    <script type="text/javascript" src='./js/pap/paper-full.min.js'></script>
+    <script type="text/javascript" src='./js/pap/setup.js'></script>
+    <script type="text/paperscript" canvas="deTestWai" src='./js/pap/mydraw.js'></script>
   </body>
 </html>
