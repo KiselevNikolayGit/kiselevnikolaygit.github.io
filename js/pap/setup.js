@@ -1,11 +1,17 @@
-var canvas = document.getElementById('deTestWai'),
-    context = canvas.getContext('2d');
+var wid = $(window).width(),
+	hid = $(window).height(),
+	size = 0;
 
-window.addEventListener('resize', resizeCanvas, false);
+hid = hid - 162;
+wid = wid - 2;
 
-function resizeCanvas() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight - 95;
+if (wid > hid) {
+	size = hid;
+} else {
+	size = wid;
 }
 
-resizeCanvas();
+// $(`#deTestWaiHolder`).width(size + 2);
+
+$(`#deTestWai`).prop("width", size);
+$(`#deTestWai`).prop("height", size);

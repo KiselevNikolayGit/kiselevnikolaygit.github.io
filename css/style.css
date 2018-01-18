@@ -100,28 +100,39 @@ div.butholder {
 div.play.square-bar {
 	display: flex;
 	flex-direction: row;
-	height: 25px;
+	height: 30px;
 }
 
 div.play.square {
-	width: 5vw;
-	text-align: center;
+	display: flex;
+	width: 10vw;
+	justify-content: center;
+	align-items: center;
 	color: transparent;
 }
 
 div.play.square.active {
+	color: #777;
+}
+
+div.play.square:hover, div.play.square:focus {
 	color: #ffde20;
 }
 
 .jswake {
 	opacity: 0;
-	display: none;
 }
 
+
+.PRESSH-50px {
+	height: 50px;
+	overflow: hidden;
+}
 
 /* ID */
 
 #deTestWai {
 	margin: 0;
 	padding: 0;
+	border: 1px solid #ffde20;
 }

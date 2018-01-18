@@ -1,9 +1,14 @@
+var MAIN = {
+	strokeWidth: 10,
+	strokeColor: '#ffde20'
+};
+
 var path;
 
 var textItem = new PointText({
-	content: '',
+	content: 'by kiselev nikolay {BETA}',
 	point: new Point(20, 30),
-	fillColor: 'black',
+	fillColor: '#ffde20'
 });
 
 function onMouseDown(event) {
@@ -19,6 +24,9 @@ function onMouseDown(event) {
 		// Select the path, so we can see its segment points:
 		fullySelected: false
 	});
+	path.strokeCap = 'round';
+	path.strokeJoin = 'round';
+	path.strokeWidth = MAIN.strokeWidth;
 }
 
 // While the user drags the mouse, points are added to the path
@@ -37,5 +45,20 @@ function onMouseUp(event) {
 		path.closed = true;
 	}
 	path.fullySelected = false;
-	path.strokeColor = '#ffde20';
+	path.strokeColor = MAIN.strokeColor;
 }
+
+$("#cleanboa").click(function(event) {
+	project.clear();
+});
+
+$("#stroke").click(function(event) {
+	var x = prompt("VVEDI TOLSHU LINII", "10") || 10;
+	var w = parseInt(x);
+	MAIN.strokeWidth = w;
+});
+
+$("#color").click(function(event) {
+	var c = prompt("VVEDI CVET LINII", '#ffde20') || '#ffde20';
+	MAIN.strokeColor = c;
+});
