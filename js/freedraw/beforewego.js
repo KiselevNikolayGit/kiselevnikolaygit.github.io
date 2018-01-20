@@ -1,8 +1,13 @@
-var wid = $(`#deTestWai`).parent().width(),
-	hid = $(`#deTestWai`).parent().height();
+$("#container").css('height', '100vh');
 
-$(`#deTestWai`).prop("width", wid);
-$(`#deTestWai`).prop("height", hid);
+var wid = $("#deTestWai").parent().width(),
+	clihei = $("#container").height(),
+	headrehei = $("#container>header").height();
+
+var hid = clihei - headrehei;
+
+$("#deTestWai").prop("width", wid);
+$("#deTestWai").prop("height", hid);
 
 $(window).resize(function(event) {
 	window.location.reload(false);

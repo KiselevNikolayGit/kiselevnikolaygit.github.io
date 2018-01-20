@@ -1,0 +1,107 @@
+<!-- Kiselev Nikolay pilil eto -->
+<!-- Have a nice watch, man. -->
+
+<!doctype html>
+
+<html lang='ru'>
+
+  <head>
+    <title>Free Draw</title>
+
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+
+    <link rel='icon' href='./logo.min.png'>
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='./css/font-awesome.css'>
+    <link rel='stylesheet' href='./css/fonts-google.css'>
+    <link rel='stylesheet' href='./css/uikit.css'>
+    
+    <!-- JS -->
+    <script type="text/javascript" src="./js/_libs/uikit/uikit.min.js"></script>
+    <script type="text/javascript" src="./js/_libs/uikit/uikit-icons.min.js"></script>
+    
+    <!-- Initialize Firebase -->
+    <script type="text/javascript" src='https://www.gstatic.com/firebasejs/4.8.1/firebase.js'></script>
+    <script type="text/javascript">
+      // Initialize Firebase
+      var config = {
+        apiKey: 'AIzaSyC0PNjNJrg9PT13RH2EhQG8lAZlT71AWWw',
+        authDomain: 'yellow-hitech.firebaseapp.com',
+        databaseURL: 'https://yellow-hitech.firebaseio.com',
+        projectId: 'yellow-hitech',
+        storageBucket: 'yellow-hitech.appspot.com',
+        messagingSenderId: '1096391109239'
+      };
+      firebase.initializeApp(config);
+    </script>
+
+  </head>
+
+  <body>
+    
+    <div id="container" class="uk-dark uk-background-secondary">
+
+      <header class="uk-width-1-1 uk-flex uk-flex-wrap uk-flex-center uk-align-center uk-margin-remove uk-padding-remove uk-background-secondary">
+        <div class="uk-flex-inline uk-margin-auto-right uk-margin-left">
+          <h1 class="uk-margin-remove uk-text-uppercase uk-text-primary">free draw</h1>
+        </div>
+        <div class="uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove"> <!-- DROPDOWN -->
+          <button class="uk-button uk-button-secondary" type="button">Линия</button>
+          <div uk-dropdown="mode: click">
+            <form>
+              <select class="uk-select">
+                <option>Маркер</option>
+                <option>Карандаш</option>
+                <option>Кисть</option>
+              </select>
+              <input id="weight" class="uk-range" type="range" min="1" max="50" step="5">
+            </form>
+          </div>
+        </div>
+        <div class="uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove"> <!-- DROPDOWN -->
+          <button class="uk-button uk-button-secondary" type="button">Оттенок</button>
+          <div uk-dropdown="mode: click">
+            <i id="colory" class="uk-margin-auto uk-margin-auto-vertical" uk-icon="paint-bucket"></i>
+            <span id="coloryres" class="uk-margin-small-left uk-margin-small-right">#ffde20</span>
+            <form>
+              <input id="hue" class="uk-range" type="range" min="0" max="360" step="1">
+            </form>
+          </div>
+        </div>
+        <div class="uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove"> <!-- BUTTON -->
+          <button id="cleanboa" class="uk-button uk-button-secondary" type="button">Отчистить</button>
+        </div>
+        <div class="uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove"> <!-- BUTTON -->
+          <button id="saveboa" class="uk-button uk-button-secondary" type="button">Сохранить</button>
+        </div>
+        <div class="uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove"> <!-- BUTTON -->
+          <div class="js-upload uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove" uk-form-custom>
+            <input id="loadboa" type="file" multiple>
+            <button class="uk-button uk-button-secondary" type="button">Загрузить</button>
+          </div>
+        </div>
+        <div class="uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove"> <!-- BUTTON -->
+          <button id="savePNG" class="uk-button uk-button-secondary" type="button">Картинку</button>
+        </div>
+      </header>
+
+      <article class="uk-margin-remove uk-flex uk-width-1-1">
+        <canvas id="deTestWai" class="uk-margin-remove" width="1000" height="0"></canvas>
+      </article>
+
+    </div>
+
+    <!-- Libs JavaScript -->
+    <script type="text/javascript" src='./js/_libs/jquery/jquery-3.2.1.min.js'></script>
+    <script type="text/javascript" src='./js/_libs/jquery/jquery.cookie.js'></script>
+    <script type="text/javascript" src='./js/_libs/markdown-it.js'></script>
+    <script type="text/javascript" src='./js/_libs/FileSaver.min.js'></script>
+    <script type="text/javascript" src='./js/_libs/paper-full.min.js'></script>
+
+    <!-- Draw -->
+    <script type="text/javascript" src='./js/freedraw/beforewego.js'></script>
+    <script type="text/paperscript" canvas="deTestWai" src='./js/freedraw/mypaper.js'></script>
+  </body>
+</html>

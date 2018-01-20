@@ -1,3 +1,5 @@
+// PAPERSCRIPT!!!
+
 var CANIM,
 	CANIMSIZE = 0,
 	textItem;
@@ -5,14 +7,14 @@ var CANIM,
 function anime() {
 	CANIMSIZE = 0;
 	CANIM = new Path.Circle({
-		center: view.center,
-		radius: 10,
+		center: new Point(50, 25),
+		radius: 14,
 		fillColor: '#000'
 	});
 	textItem = new PointText({
 		content: 'By KNCELEB',
 		point: new Point(20, 30),
-		fillColor: '#fff'
+		fillColor: new Color('#fd2')
 	});
 	view.update();
 }
@@ -21,8 +23,9 @@ anime();
 
 function onFrame(event) {
 	if (CANIMSIZE < 6) {
-		CANIM.scaling += .1;
-		CANIMSIZE += .1;
+		CANIM.scaling += .03;
+		CANIMSIZE += .03;
+		textItem.fillColor.lightness += .005;
 	}
 };
 

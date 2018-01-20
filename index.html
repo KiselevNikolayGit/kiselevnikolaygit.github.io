@@ -6,7 +6,7 @@
 <html lang='ru'>
 
   <head>
-    <title>Yellow hi tech</title>
+    <title>Free Draw</title>
 
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
@@ -14,13 +14,13 @@
     <link rel='icon' href='./logo.min.png'>
 
     <!-- CSS -->
-    <link rel='stylesheet' href='./font-awesome/css/fontawesome-all.min.css'>
-    <link rel='stylesheet' href='./fonts/fonts.css'>
-    <link rel='stylesheet' href='./uikit-3.0.0-beta.35/css/uikit.css'>
+    <link rel='stylesheet' href='./css/font-awesome.css'>
+    <link rel='stylesheet' href='./css/fonts-google.css'>
+    <link rel='stylesheet' href='./css/uikit.css'>
     
-    <!-- Js -->
-    <script type="text/javascript" src="./uikit-3.0.0-beta.35/js/uikit.min.js"></script>
-    <script type="text/javascript" src="./uikit-3.0.0-beta.35/js/uikit-icons.min.js"></script>
+    <!-- JS -->
+    <script type="text/javascript" src="./js/_libs/uikit/uikit.min.js"></script>
+    <script type="text/javascript" src="./js/_libs/uikit/uikit-icons.min.js"></script>
     
     <!-- Initialize Firebase -->
     <script type="text/javascript" src='https://www.gstatic.com/firebasejs/4.8.1/firebase.js'></script>
@@ -41,68 +41,17 @@
 
   <body>
     
-    <div class="uk-dark uk-background-secondary" style="height: 100vh;">
-
-      <div class="uk-width-1-1 uk-flex uk-flex-wrap uk-flex-center uk-background-secondary" style="max-height: 20vh;">
-        <div> <!-- DROPDOWN -->
-          <button class="uk-button uk-button-secondary" type="button">Линия</button>
-          <div uk-dropdown="mode: click">
-            <form>
-              <select class="uk-select">
-                <option>Маркер</option>
-                <option>Карандаш</option>
-                <option>Кисть</option>
-              </select>
-              <input id="weight" class="uk-range" type="range" min="1" max="50" step="5">
-            </form>
-          </div>
-        </div>
-        <div> <!-- DROPDOWN -->
-          <button class="uk-button uk-button-secondary" type="button">Оттенок</button>
-          <div uk-dropdown="mode: click">
-            <i id="colory" class="uk-margin-auto uk-margin-auto-vertical" uk-icon="paint-bucket"></i>
-            <span id="coloryres" class="uk-margin-small-left uk-margin-small-right">#ffde20</span>
-            <form>
-              <input id="hue" class="uk-range" type="range" min="0" max="360" step="1">
-            </form>
-          </div>
-        </div>
-        <div> <!-- BUTTON -->
-          <button id="cleanboa" class="uk-button uk-button-secondary" type="button">Отчистить</button>
-        </div>
-        <div> <!-- BUTTON -->
-          <button id="saveboa" class="uk-button uk-button-secondary" type="button">Сохранить</button>
-        </div>
-        <div> <!-- BUTTON -->
-          <div class="js-upload" uk-form-custom>
-            <input id="loadboa" type="file" multiple>
-            <button class="uk-button uk-button-secondary" type="button" tabindex="-1">Загрузить</button>
-          </div>
-        </div>
-        <div> <!-- BUTTON -->
-          <button id="savePNG" class="uk-button uk-button-secondary" type="button">Картинку</button>
-        </div>
-      </div>
-
-      <div class="uk-margin-remove" style="display: flex; height: 80vh; width: 100%; overflow: hidden;">
-        <canvas id="deTestWai" class="uk-margin-remove" width="1000" height="0"></canvas>
-      </div>
-
-    </div>
-
-    <!-- Librs JavaScript -->
-    <script type="text/javascript" src='./js/jquery-3.2.1.min.js'></script>
-    <script type="text/javascript" src='./js/jquery.cookie.js'></script>
-    <script type="text/javascript" src='./js/markdown-it.js'></script>
-    <script type="text/javascript" src='./js/FileSaver.min.js'></script>
+    <!-- Libs JavaScript -->
+    <script type="text/javascript" src='./js/_libs/jquery/jquery-3.2.1.min.js'></script>
+    <script type="text/javascript" src='./js/_libs/jquery/jquery.cookie.js'></script>
+    <script type="text/javascript" src='./js/_libs/markdown-it.js'></script>
+    <script type="text/javascript" src='./js/_libs/FileSaver.min.js'></script>
+    <script type="text/javascript" src='./js/_libs/paper-full.min.js'></script>
 
     <!-- My JavaScript -->
-    <script type="text/javascript" src='./js/firebase.js'></script>
-    <script type="text/javascript" src='./js/animation.js'></script>
+    <script type="text/javascript" src='./js/firebase/index.js'></script>
 
     <!-- Draw staff -->
-    <script type="text/javascript" src='./js/pap/setup.js'></script>
-    <script type="text/javascript" src='./js/pap/paper-full.min.js'></script>
-    <script type="text/paperscript" canvas="deTestWai" src='./js/pap/mydraw.js'></script>
+    <script type="text/paperscript" canvas="deTestWai" src='./js/freedraw/mypaper.js'></script>
   </body>
 </html>
