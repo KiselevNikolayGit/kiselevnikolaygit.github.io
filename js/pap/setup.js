@@ -1,17 +1,12 @@
-var wid = $(window).width(),
-	hid = $(window).height(),
-	size = 0;
+var wid = $(`#deTestWai`).parent().width(),
+	hid = $(`#deTestWai`).parent().height();
 
-hid = hid - 162;
-wid = wid - 2;
+$(`#deTestWai`).prop("width", wid);
+$(`#deTestWai`).prop("height", hid);
 
-if (wid > hid) {
-	size = hid;
-} else {
-	size = wid;
-}
-
-// $(`#deTestWaiHolder`).width(size + 2);
-
-$(`#deTestWai`).prop("width", size);
-$(`#deTestWai`).prop("height", size);
+$(window).resize(function(event) {
+	window.location.reload(false);
+	// FALLBACKS RELOAD PAGE
+	window.location.replace(window.location.pathname + window.location.search + window.location.hash);
+	window.location.href = window.location.pathname + window.location.search + window.location.hash;
+});
