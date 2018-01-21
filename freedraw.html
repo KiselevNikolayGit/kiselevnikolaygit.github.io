@@ -6,13 +6,37 @@
 <html lang='ru'>
 
   <head>
-    <title>Free Draw</title>
-    <base href="/">
 
+    <base href="/">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 
-    <link rel='icon' href='./logo.min.png'>
+    <!-- APP -->
+    <title lang="ru">Просто рисуй</title>
+    <title lang="en">Free Draw</title>
+    <meta name="description" content="Author: N. Kiselev, Category: Social, Price: $1.21">
+    <meta name="author" content="Kiselev Nikolay">
+    <meta name="keywords" content="yht,yellow,hi,tech,draw,online,netdraw,живые,картины,друзьям">
+    <meta name="robots" content="index,nofollow">
+    <meta name="revisit-after" content="4 days">
+    <!-- card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="Kiselev Nikolay">
+    <meta name="twitter:title" content="Просто рисуй">
+    <meta name="twitter:description" content="Нарисуй что угодно за считаные наносекунды и сохрани на компьютер в векторном формате.">
+    <meta name="twitter:image" content="http://yellow-hi.tech/img/dist/logo.png">
+    <link rel="manifest" href="./manifest/fredraw.webmanifest">
+
+    <!-- ICONS -->
+    <link rel="icon" href="./img/dist/logo.48.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="./img/dist/logo.72.png" type="image/png" sizes="72x72">
+    <link rel="icon" href="./img/dist/logo.96.png" type="image/png" sizes="96x96">
+    <link rel="icon" href="./img/dist/logo.144.png" type="image/png" sizes="144x144">
+    <link rel="icon" href="./img/dist/logo.168.png" type="image/png" sizes="168x168">
+    <link rel="icon" href="./img/dist/logo.192.png" type="image/png" sizes="192x192">
+    <link rel="icon" href="./img/dist/logo.png" type="image/png" sizes="420x420">
+    <!-- fallback -->
+    <link rel="icon" href="./img/dist/logo.48.png">
 
     <!-- CSS -->
     <link rel='stylesheet' href='./css/font-awesome.css'>
@@ -23,21 +47,6 @@
     <script type="text/javascript" src="./js/libs/uikit/uikit.min.js"></script>
     <script type="text/javascript" src="./js/libs/uikit/uikit-icons.min.js"></script>
     
-    <!-- Initialize Firebase -->
-    <script type="text/javascript" src='https://www.gstatic.com/firebasejs/4.8.1/firebase.js'></script>
-    <script type="text/javascript">
-      // Initialize Firebase
-      var config = {
-        apiKey: 'AIzaSyC0PNjNJrg9PT13RH2EhQG8lAZlT71AWWw',
-        authDomain: 'yellow-hitech.firebaseapp.com',
-        databaseURL: 'https://yellow-hitech.firebaseio.com',
-        projectId: 'yellow-hitech',
-        storageBucket: 'yellow-hitech.appspot.com',
-        messagingSenderId: '1096391109239'
-      };
-      firebase.initializeApp(config);
-    </script>
-
   </head>
 
   <body>
@@ -46,7 +55,7 @@
 
       <header class="uk-width-1-1 uk-flex uk-flex-wrap uk-flex-center uk-align-center uk-margin-remove uk-padding-remove uk-background-secondary">
         <div class="uk-flex-inline uk-margin-auto-right uk-margin-left">
-          <h1 class="uk-margin-remove uk-text-uppercase uk-text-primary">free draw</h1>
+          <h1 class="uk-margin-remove uk-text-uppercase uk-text-primary">Просто рисуй</h1>
         </div>
         <div class="uk-flex uk-align-center uk-flex-center uk-margin-remove uk-padding-remove"> <!-- DROPDOWN -->
           <button class="uk-button uk-button-secondary" type="button">Линия</button>
