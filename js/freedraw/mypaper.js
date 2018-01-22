@@ -74,8 +74,10 @@ function onMouseUp(event) {
 			fillColor: MAIN.strokeColor.clone(),
 			fullySelected: false
 		});
-	}
-}
+	};
+	SVG = SaveVG();
+	CreateCookie("DATAoSVGcahseaesdfasdfwefasefaewfa", SVG);
+};
 
 $("#weight").on('input', function(event) {
 	event.preventDefault();
@@ -96,10 +98,7 @@ $("#cleanboa").click(function(event) {
 });
 
 $("#saveboa").click(function(event) {
-	options = {
-		asString: true,
-	};
-	var SVG = project.exportSVG(options);
+	SVG = SaveVG();
 	console.log(SVG);
 	var blob = new Blob([SVG], {type: "image/svg+xml;charset=utf-8"});
 	saveAs(blob, "image.svg");
@@ -118,9 +117,20 @@ $("#loadboa").on('change', function(event) {
 	reader.readAsText(fileList[0]);
 });
 
-
-
 $("#savePNG").click(function(event) {
 	var canvas = document.getElementById("deTestWai");
 	canvas.toBlob(function(blob){ saveAs(blob, "work.jpeg"); }, 'image/jpeg', 1);
 });
+
+function SaveVG() {
+	options = {
+		asString: true,
+	};
+	var SVG = project.exportSVG(options);
+	return SVG;
+};
+
+function callPolice() {
+	anime();
+	SVG = LoadCookie("DATAoSVGcahseaesdfasdfwefasefaewfa");
+};
