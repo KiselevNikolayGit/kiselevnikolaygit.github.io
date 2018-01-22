@@ -1,17 +1,26 @@
-$("#container").css('height', '100vh');
+$(function() {
+	
+	UIkit.notification(
+		`Мы используем файлы <a target="_blank" href="https://ru.wikipedia.org/wiki/Cookie">cookie</a> для хранения ваших настроек и предпочтений.`,
+		{pos: 'bottom-right'}
+	);
 
-var wid = $("#deTestWai").parent().width(),
-	clihei = $("#container").height(),
-	headrehei = $("#container>header").height();
+	$("#container").css('height', '100vh');
 
-var hid = clihei - headrehei;
+	var wid = $("#deTestWai").parent().width(),
+		clihei = $("#container").height(),
+		headrehei = $("#container>header").height();
 
-$("#deTestWai").prop("width", wid);
-$("#deTestWai").prop("height", hid);
+	var hid = clihei - headrehei;
 
-$(window).resize(function(event) {
-	window.location.reload(false);
-	// FALLBACKS RELOAD PAGE
-	window.location.replace(window.location.pathname + window.location.search + window.location.hash);
-	window.location.href = window.location.pathname + window.location.search + window.location.hash;
-});
+	$("#deTestWai").prop("width", wid);
+	$("#deTestWai").prop("height", hid);
+
+	$(window).resize(function(event) {
+		window.location.reload(false);
+		// FALLBACKS RELOAD PAGE
+		window.location.replace(window.location.pathname + window.location.search + window.location.hash);
+		window.location.href = window.location.pathname + window.location.search + window.location.hash;
+	});
+
+})
