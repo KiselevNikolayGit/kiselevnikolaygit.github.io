@@ -3,6 +3,7 @@ function main(){
 
 	var CANIM,
 		CANIMSIZE = 0,
+		lastic = false,
 		textItem;
 
 	function anime() {
@@ -22,7 +23,7 @@ function main(){
 	}
 
 	view.onFrame = function(event) {
-		if (CANIMSIZE < 6) {
+		if (CANIM && CANIMSIZE < 6) {
 			CANIM.scaling += .09;
 			CANIMSIZE += .09;
 			textItem.fillColor.lightness += .01;
@@ -34,7 +35,8 @@ function main(){
 
 	var MAIN = {
 		strokeWidth: 10,
-		strokeColor: new Color('#ffde20')
+		strokeColor: new Color('#ffde20'),
+		simplifyVAL: 22
 	};
 
 	var path;
@@ -42,7 +44,7 @@ function main(){
 	view.onMouseDown = function(event) {
 		if (CANIMSIZE >= 6) {
 			if (path) {
-				path.selected = false;
+				CookSvg();
 			}
 
 			path = new Path({
@@ -65,7 +67,7 @@ function main(){
 	view.onMouseUp = function(event) {
 		if (CANIMSIZE >= 6 && path) {
 			if (path.length > 3) {
-				path.simplify(23);
+				path.simplify(MAIN.simplifyVAL);
 				var distan = path.firstSegment.point.getDistance(path.lastSegment.point) || 21;
 			
 				if (path.length > 6 && distan < 20) {
@@ -73,6 +75,10 @@ function main(){
 				}
 				// path.fullySelected = true;
 				path.strokeColor = MAIN.strokeColor.clone();
+				if (lastic) {
+					alert("Могу стереть только себя. Я лучший ластик на земле. Спасибо за внимание.");
+					path.remove();
+				}
 			} else {
 				path.remove();
 				var circ = new Path.Circle({
@@ -81,10 +87,13 @@ function main(){
 					fillColor: MAIN.strokeColor.clone(),
 					fullySelected: false
 				});
+				if (lastic) {
+					alert("Могу стереть только себя. Я лучший ластик на земле. Спасибо за внимание.");
+					circ.remove();
+				}
 			};
-			SVG = SaveVG();
-			CreateCookie("DATAoSVGcahseaesdfasdfwefasefaewfa", SVG);
-		}
+			CookSvg();
+		};
 	};
 
 	$("#weight").on('input', function(event) {
@@ -99,6 +108,16 @@ function main(){
 		$("#colory").css('color', MAIN.strokeColor.toCSS(true));
 	});
 
+	$("#simpai").on('change', function(event) {
+		var a = $("#simpai").val();
+		if (a != 0) {
+			MAIN.simplifyVAL = 33 / a;
+			lastic = false;
+		} else {
+			MAIN.simplifyVAL = 0;
+			lastic = true;
+		}
+	});
 
 	$("#cleanboa").click(function(event) {
 		RemoveCookie("DATAoSVGcahseaesdfasdfwefasefaewfa")
@@ -146,6 +165,12 @@ function main(){
 		}
 		view.requestUpdate();
 	};
+
+	function CookSvg() {
+		SVG = SaveVG();
+		CreateCookie("DATAoSVGcahseaesdfasdfwefasefaewfa", SVG);
+	};
+
 	window.callPolice();
 };
 

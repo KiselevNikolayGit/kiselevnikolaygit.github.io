@@ -57,10 +57,11 @@
           <button class="uk-button uk-button-secondary" type="button">Линия</button>
           <div uk-dropdown="mode: click">
             <form>
-              <select class="uk-select">
-                <option>Маркер</option>
-                <option>Карандаш</option>
-                <option>Кисть</option>
+              <select id="simpai" class="uk-select" title="Влияет только на исправление линий" uk-tooltip>
+                <option value="0">Ластик</option>
+                <option value="1">Карандаш</option>
+                <option value="2" selected="selected">Маркер</option>
+                <option value="3">Кисть</option>
               </select>
               <input id="weight" class="uk-range" type="range" min="1" max="50" step="5">
             </form>

@@ -3,7 +3,7 @@ function LoadCookie(Key) {
 };
 
 function CreateCookie(Key, Value) {
-  $.cookie(Key, Value, {
+  return $.cookie(Key, Value, {
     expires: 7,
     path: '/'
   });
