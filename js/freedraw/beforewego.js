@@ -41,5 +41,5 @@ normalizeCan();
 
 $(window).resize(function(event) {
 	normalizeCan();
-	callPolice();
+	window.callPolice();
 });;
