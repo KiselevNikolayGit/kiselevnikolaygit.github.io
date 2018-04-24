@@ -36,10 +36,12 @@ function sync() {
 	docRef.get().then(function(doc) {
 	    if (doc.exists) {
 	        let data = doc.data();
+	        data = JSON.parse(data);
         	quill.setContents(data);
 	    } else {
+	    	let data = JSON.stringify(dataquill.getContents());
 	        docRef.set({
-				body: quill.getContents(),
+				body: data,
 			});
 	    }
 	});
