@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteBase /
 
-RewriteRule ^find:(.*) #$1 [L]
+RewriteRule ^find:(.*) #$1 [R]
