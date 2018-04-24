@@ -39,7 +39,7 @@ function sync() {
 	        data = JSON.parse(data);
         	quill.setContents(data);
 	    } else {
-	    	let data = JSON.stringify(dataquill.getContents());
+	    	let data = JSON.stringify(quill.getContents());
 	        docRef.set({
 				body: data,
 			});
