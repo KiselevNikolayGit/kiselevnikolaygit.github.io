@@ -1,3 +1,5 @@
+var db = firebase.firestore();
+
 var quill = new Quill('#editor', {
 	modules: {
 		toolbar: [
