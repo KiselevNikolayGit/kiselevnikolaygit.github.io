@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteBase /
-
-RewriteRule ^find:(.*) #$1 [R]
