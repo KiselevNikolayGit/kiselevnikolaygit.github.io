@@ -34,7 +34,7 @@ function sync() {
 	docRef.get().then(function(doc) {
 	    if (doc.exists) {
 	        let data = doc.data();
-        	quill.setContents(data),
+        	quill.setContents(data);
 	    } else {
 	        docRef.set({
 				body: quill.getContents(),
